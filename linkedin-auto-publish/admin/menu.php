@@ -93,7 +93,7 @@ function xyz_lnap_insert_og_image_tag_for_ln(){
 		if (!empty($post) && get_option('xyz_lnap_enforce_og_tags')==1){
 		$postid= $post->ID;
 		$excerpt='';$attachmenturl='';$name='';
-		if(isset($postid ) && $postid>0)
+		if(isset($postid ) && $postid>0 && isset($_SERVER["HTTP_USER_AGENT"])  )
 		{
 			$xyz_lnap_apply_filters=get_option('xyz_lnap_apply_filters');
 			$get_post_meta_insert_og=0;

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: multilang\n"
-"POT-Creation-Date: 2023-10-06 15:26+0530\n"
-"PO-Revision-Date: 2023-10-06 15:35+0530\n"
+"POT-Creation-Date: 2024-10-22 17:12+0530\n"
+"PO-Revision-Date: 2024-10-22 17:13+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -86,7 +86,7 @@ msgstr "فيسبوك"
 msgid "Twitter"
 msgstr "تويتر"
 
-#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:299
+#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:290
 msgid "LinkedIn"
 msgstr "ينكدين"
 
@@ -110,80 +110,80 @@ msgstr "خيارات الإرسال"
 msgid "Publish to facebook pages"
 msgstr "انشر على صفحات الفيسبوك"
 
-#: admin/about.php:104
-msgid "Publish to facebook groups"
-msgstr "انشر في مجموعات الفيسبوك"
-
-#: admin/about.php:113
+#: admin/about.php:105
 msgid "Publish to twitter profile"
 msgstr "انشر على تويتر الشخصي"
 
-#: admin/about.php:123
+#: admin/about.php:115
 msgid "Publish to linkedin profile"
 msgstr "انشر على صفحات الملف الشخصي"
 
-#: admin/about.php:134
+#: admin/about.php:126
 msgid "Publish to linkedin company pages"
 msgstr "انشر على صفحات شركة شركة لينكد إن"
 
-#: admin/about.php:143
+#: admin/about.php:135
 msgid "Publish to instagram Business accounts"
 msgstr "انشر على حسابات الأعمال في انستغرام"
 
-#: admin/about.php:152
+#: admin/about.php:144
 msgid "Publish to tumblr profile"
 msgstr "انشر في ملف تعريف نعرفكم"
 
-#: admin/about.php:162
+#: admin/about.php:154
 msgid "Publish to pinterest boards"
 msgstr "انشر على بينتيريست المجالس"
 
-#: admin/about.php:172
+#: admin/about.php:164
 msgid "Option to republish existing posts"
 msgstr "خيار لإعادة نشر الوظائف الحالية"
 
-#: admin/about.php:182
+#: admin/about.php:174
 msgid "Publish to multiple social media accounts"
 msgstr "انشر على حسابات وسائط اجتماعية متعددة"
 
-#: admin/about.php:192
+#: admin/about.php:184
 msgid ""
 "Seperate message formats for publishing to multiple social media accounts"
 msgstr "تنسيق رسالة منفصل للنشر على حسابات وسائط اجتماعية متعددة"
 
-#: admin/about.php:202
+#: admin/about.php:194
 msgid "Save auto publish settings of individual posts"
 msgstr "حفظ إعدادات النشر التلقائي للمشاركات الفردية"
 
-#: admin/about.php:212
+#: admin/about.php:204
 msgid ""
 "Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr and "
 "Pinterest"
 msgstr ""
 "دعم علامات التجزئة لـ فيسبوك و تويتر و ينكدين والانستغرام و بينتيريست و تمبلر"
 
-#: admin/about.php:221
+#: admin/about.php:213
 msgid "Option to use post tags as hash tags"
 msgstr "خيار لاستخدام علامة المنشور كعلامات تصنيف"
 
-#: admin/about.php:231
+#: admin/about.php:222
+msgid "Option to use post categories as hash tags"
+msgstr "خيار لاستخدام علامة المنشور كعلامات تصنيف"
+
+#: admin/about.php:232
 msgid "Enable/Disable SSL peer verification"
 msgstr "تمكين / تعطيل التحقق من الأقران SSL"
 
-#: admin/about.php:243
+#: admin/about.php:244
 msgid "Image Options"
 msgstr "خيارات الصورة"
 
-#: admin/about.php:244
+#: admin/about.php:245
 msgid "Publish images along with post content"
 msgstr "نشر الصور مع محتوى آخر"
 
-#: admin/about.php:255
+#: admin/about.php:256
 msgid ""
 "Separate default image url for publishing to multiple social media accounts"
 msgstr "عنوان url افتراضي منفصل للصورة للنشر على حسابات وسائط اجتماعية متعددة"
 
-#: admin/about.php:265
+#: admin/about.php:266
 msgid ""
 "Option to specify preference from featured image, post content, post meta and "
 "open graph tags"
@@ -191,38 +191,38 @@ msgstr ""
 "خيار لتحديد التفضيل من الصورة المميزة ومحتوى المنشور ونشر التعريف وفتح علامات "
 "الرسم البياني"
 
-#: admin/about.php:274
+#: admin/about.php:275
 msgid ""
 "Publish multiple images to facebook, tumblr, linkedin and twitter along with "
 "post content"
 msgstr "انشر صورًا متعددة على فيسبوك و تمبلر و ينكدين و تويتر مع محتوى المنشور"
 
-#: admin/about.php:283
+#: admin/about.php:284
 msgid "Option to specify multiphoto preference from post content and post meta"
 msgstr "خيار لتحديد تفضيل متعدد الصور من محتوى المنشور ونشر التعريف"
 
-#: admin/about.php:295
+#: admin/about.php:296
 msgid "Video/Audio Options"
 msgstr "خيارات الفيديو / الصوت"
 
-#: admin/about.php:296
+#: admin/about.php:297
 msgid ""
 "Publish video to facebook, tumblr, Linkedin, Instagram and twitter along with "
 "post content"
 msgstr ""
 "انشر الفيديو على فيسبوك و نعرفكم و ينكدين و الانستغرام و تويتر مع محتوى النشر"
 
-#: admin/about.php:306
+#: admin/about.php:307
 msgid ""
 "Option to specify preference from post content, post meta and open graph tags"
 msgstr ""
 "خيار لتحديد التفضيل من محتوى المنشور ونشر التعريف وفتح علامات الرسم البياني"
 
-#: admin/about.php:316
+#: admin/about.php:317
 msgid "Publish audio to tumblr along with post content"
 msgstr "انشر الصوت إلى نعرفكم جنبًا إلى جنب مع محتوى النشر"
 
-#: admin/about.php:326
+#: admin/about.php:327
 msgid ""
 "Option to specify audio preference from  post content, post meta and open "
 "graph tags"
@@ -230,119 +230,119 @@ msgstr ""
 "خيار لتحديد تفضيلات الصوت من محتوى المنشور ونشر التعريف وفتح علامات الرسم "
 "البياني"
 
-#: admin/about.php:338
+#: admin/about.php:339
 msgid "Filter Options"
 msgstr "خيارات التصفية"
 
-#: admin/about.php:339
+#: admin/about.php:340
 msgid "Filter posts to publish based on categories"
 msgstr "تصفية المشاركات للنشر على أساس الفئات"
 
-#: admin/about.php:349
+#: admin/about.php:350
 msgid "Filter posts to publish based on custom post types"
 msgstr "تصفية المشاركات للنشر على أساس أنواع المنشورات المخصصة"
 
-#: admin/about.php:358
+#: admin/about.php:359
 msgid "Filter posts to publish based on sticky posts"
 msgstr "تصفية المشاركات للنشر على أساس المنشورات اللاصقة"
 
-#: admin/about.php:367
+#: admin/about.php:368
 msgid "Configuration to enable/disable page publishing"
 msgstr "التكوين لتمكين / تعطيل نشر الصفحة"
 
-#: admin/about.php:377
+#: admin/about.php:378
 msgid "Category filter for individual accounts"
 msgstr "مرشح الفئات للحسابات الفردية"
 
-#: admin/about.php:387
+#: admin/about.php:388
 msgid "Custom post type filter for individual accounts"
 msgstr "عامل تصفية نوع المنشور المخصص للحسابات الفردية"
 
-#: admin/about.php:397
+#: admin/about.php:398
 msgid "Enable/Disable page publishing for individual accounts"
 msgstr "تمكين / تعطيل نشر الصفحة للحسابات الفردية"
 
-#: admin/about.php:406
+#: admin/about.php:407
 msgid "Override auto publish scheduling for individual accounts"
 msgstr "تجاوز جدولة النشر التلقائي للحسابات الفردية"
 
-#: admin/about.php:415
+#: admin/about.php:416
 msgid "Override auto publish based on sticky posts for individual accounts"
 msgstr "تجاوز النشر التلقائي بناءً على المنشورات الثابتة للحسابات الفردية"
 
-#: admin/about.php:426
+#: admin/about.php:427
 msgid "Scheduling"
 msgstr "الجدولة"
 
-#: admin/about.php:427
+#: admin/about.php:428
 msgid "Instantaneous post publishing"
 msgstr "النشر الفوري"
 
-#: admin/about.php:437
+#: admin/about.php:438
 msgid "Scheduled post publishing using cron"
 msgstr "نشر المنشور المجدول باستخدام cron"
 
-#: admin/about.php:446
+#: admin/about.php:447
 msgid "Status summary of auto publish tasks by mail"
 msgstr "ملخص حالة مهام النشر التلقائي عن طريق البريد"
 
-#: admin/about.php:456
+#: admin/about.php:457
 msgid "Configurable auto publishing time interval"
 msgstr "الفاصل الزمني للنشر التلقائي القابل للتكوين"
 
-#: admin/about.php:470
+#: admin/about.php:471
 msgid "Publishing History"
 msgstr "تاريخ النشر"
 
-#: admin/about.php:471
+#: admin/about.php:472
 msgid "View auto publish history"
 msgstr "عرض محفوظات النشر التلقائي"
 
-#: admin/about.php:480
+#: admin/about.php:481
 msgid "View auto publish error logs"
 msgstr "عرض سجلات خطأ النشر التلقائي"
 
-#: admin/about.php:490
+#: admin/about.php:491
 msgid "Option to republish post"
 msgstr "خيار إعادة نشر آخر"
 
-#: admin/about.php:500
+#: admin/about.php:501
 msgid "Option to reschedule publishing"
 msgstr "خيار إعادة جدولة النشر"
 
-#: admin/about.php:511
+#: admin/about.php:512
 msgid "Installation and Support"
 msgstr "التثبيت والدعم"
 
-#: admin/about.php:512
+#: admin/about.php:513
 msgid "Free Installation"
 msgstr "تركيب مجاني"
 
-#: admin/about.php:521
+#: admin/about.php:522
 msgid "Privilege customer support"
 msgstr "امتياز دعم العملاء"
 
-#: admin/about.php:531
+#: admin/about.php:532
 msgid "Addon Features"
 msgstr "ميزات الملحق"
 
-#: admin/about.php:532
+#: admin/about.php:533
 msgid "Advanced Autopublish Scheduler"
 msgstr "جدولة النشر التلقائي المتقدمة"
 
-#: admin/about.php:541
+#: admin/about.php:542
 msgid "URL-Shortener"
 msgstr "URL- shortener"
 
-#: admin/about.php:550
+#: admin/about.php:551
 msgid "Privilege Management"
 msgstr "إدارة الامتياز"
 
-#: admin/about.php:559
+#: admin/about.php:560
 msgid "Other"
 msgstr "آخر"
 
-#: admin/about.php:561
+#: admin/about.php:562
 #, php-format
 msgid ""
 "%s API package for 1 year, worth 10 USD(1 linkedin account @ 25 api per day)"
@@ -350,39 +350,39 @@ msgstr ""
 "حزمة%s API لمدة عام واحد ، بقيمة 10 دولارات أمريكية (حساب واحد مرتبط بـ 25 "
 "واجهة برمجة تطبيقات في اليوم)"
 
-#: admin/about.php:565
+#: admin/about.php:566
 msgid "1 month free subscription"
 msgstr "اشتراك مجاني لمدة شهر"
 
-#: admin/about.php:567
+#: admin/about.php:568
 msgid "3 months free subscription"
 msgstr "اشتراك مجاني لمدة 3 اشهر"
 
-#: admin/about.php:573
+#: admin/about.php:574
 msgid "Price"
 msgstr "سعر"
 
-#: admin/about.php:574
+#: admin/about.php:575
 msgid "FREE"
 msgstr "مجانيا"
 
-#: admin/about.php:575
+#: admin/about.php:576
 msgid "Starts from 39 USD"
 msgstr "يبدأ من 39 دولارًا أمريكيًا"
 
-#: admin/about.php:576
+#: admin/about.php:577
 msgid "Starts from 69 USD"
 msgstr "يبدأ من 69 دولارًا أمريكيًا"
 
-#: admin/about.php:579
+#: admin/about.php:580
 msgid "Purchase"
 msgstr "شراء"
 
-#: admin/about.php:581
+#: admin/about.php:582
 msgid "Buy Now"
 msgstr "اشتري الآن"
 
-#: admin/about.php:587
+#: admin/about.php:588
 msgid "Pinterest is added on experimental basis."
 msgstr "تمت إضافة بينتيريست على أساس تجريبي."
 
@@ -479,11 +479,11 @@ msgid "Settings updated successfully."
 msgstr "تم تحديث الإعدادات بنجاح."
 
 #: admin/header.php:20 admin/header.php:33 admin/header.php:49
-#: admin/manage-authorizations.php:9 admin/manage-authorizations.php:132
-#: admin/manage-authorizations.php:199 admin/settings.php:29
+#: admin/manage-authorizations.php:9 admin/manage-authorizations.php:134
+#: admin/manage-authorizations.php:201 admin/settings.php:29
 #: admin/settings.php:45 admin/settings.php:159 admin/settings.php:166
 #: admin/settings.php:174 admin/settings.php:184 admin/settings.php:197
-#: admin/settings.php:1047 admin/settings.php:1080 admin/suggest_feature.php:11
+#: admin/settings.php:1044 admin/settings.php:1077 admin/suggest_feature.php:11
 #: admin/suggest_feature.php:19 admin/suggest_feature.php:27
 msgid "Dismiss"
 msgstr "رفض"
@@ -559,93 +559,93 @@ msgstr "تم تحديث حزمة% s بنجاح."
 msgid "Please authorize %s app under LinkedIn settings to access this page."
 msgstr "الرجاء تفويض تطبيق% s ضمن إعدادات LinkedIn للوصول إلى هذه الصفحة."
 
-#: admin/manage-authorizations.php:246 admin/menu.php:36
+#: admin/manage-authorizations.php:248 admin/menu.php:36
 msgid "Manage Authorizations"
 msgstr "إدارة التراخيص"
 
-#: admin/manage-authorizations.php:271
+#: admin/manage-authorizations.php:273
 msgid "Current Plan:"
 msgstr "الخطة الحالية:"
 
-#: admin/manage-authorizations.php:273
+#: admin/manage-authorizations.php:275
 msgid "Allowed LinkedIn users:"
 msgstr "مستخدمو ينكدين المسموح لهم:"
 
-#: admin/manage-authorizations.php:274
+#: admin/manage-authorizations.php:276
 msgid "API limit per account :"
 msgstr "حد API لكل حساب:"
 
-#: admin/manage-authorizations.php:274
+#: admin/manage-authorizations.php:276
 msgid "per day"
 msgstr "في اليوم"
 
-#: admin/manage-authorizations.php:275
+#: admin/manage-authorizations.php:277
 msgid "Package Expiry :"
 msgstr "انتهاء صلاحية الحزمة:"
 
-#: admin/manage-authorizations.php:276
+#: admin/manage-authorizations.php:278
 msgid "Package Status :"
 msgstr "وضع رزمة :"
 
-#: admin/manage-authorizations.php:286
+#: admin/manage-authorizations.php:288
 msgid "Upgrade/Renew"
 msgstr "الترقية / التجديد"
 
-#: admin/manage-authorizations.php:297
+#: admin/manage-authorizations.php:299
 msgid "Show all entries"
 msgstr "إظهار كافة الإدخالات"
 
-#: admin/manage-authorizations.php:298
+#: admin/manage-authorizations.php:300
 msgid "Show entries from current wp installation"
 msgstr "إظهار الإدخالات من تثبيت wp الحالي"
 
-#: admin/manage-authorizations.php:299
+#: admin/manage-authorizations.php:301
 msgid "Show entries from other wp installations"
 msgstr "إظهار الإدخالات من عمليات تثبيت wp الأخرى"
 
-#: admin/manage-authorizations.php:305
+#: admin/manage-authorizations.php:307
 msgid "LinkedIn username"
 msgstr "اسم مستخدم ينكدين"
 
-#: admin/manage-authorizations.php:306
+#: admin/manage-authorizations.php:308
 msgid "Selected pages"
 msgstr "صفحات مختارة"
 
-#: admin/manage-authorizations.php:308
+#: admin/manage-authorizations.php:310
 #, php-format
 msgid "%s url"
 msgstr "% s url"
 
-#: admin/manage-authorizations.php:310
+#: admin/manage-authorizations.php:312
 msgid "Plugin"
 msgstr "توصيل في"
 
-#: admin/manage-authorizations.php:312
+#: admin/manage-authorizations.php:314
 #, php-format
 msgid "Account ID %s"
 msgstr "معرف الحساب %s"
 
-#: admin/manage-authorizations.php:315
+#: admin/manage-authorizations.php:317
 msgid "Action"
 msgstr "عمل"
 
-#: admin/manage-authorizations.php:347
+#: admin/manage-authorizations.php:349
 msgid "Not Applicable"
 msgstr "غير قابل للتطبيق"
 
-#: admin/manage-authorizations.php:354 admin/manage-authorizations.php:376
+#: admin/manage-authorizations.php:356 admin/manage-authorizations.php:378
 msgid "Delete"
 msgstr "حذف"
 
-#: admin/manage-authorizations.php:367
+#: admin/manage-authorizations.php:369
 msgid "(Inactive)"
 msgstr "(أمرنا بإبطال)"
 
-#: admin/manage-authorizations.php:387
+#: admin/manage-authorizations.php:389
 msgid "No Authorizations"
 msgstr "لا تراخيص"
 
-#: admin/manage-authorizations.php:396
+#: admin/manage-authorizations.php:398
 msgid "Unable to connect. Please check your curl and firewall settings"
 msgstr "غير قادر على الاتصال. يرجى التحقق من إعدادات الضفيرة وجدار الحماية"
 
@@ -692,93 +692,93 @@ msgstr "سجل"
 msgid "Suggest a Feature"
 msgstr "اقترح ميزة"
 
-#: admin/metabox.php:307 admin/settings.php:313
+#: admin/metabox.php:298 admin/settings.php:313
 msgid "Enable auto publish posts to my linkedin account"
 msgstr "تفعيل النشر التلقائي للمنشورات في حسابي على لينكد إن"
 
-#: admin/metabox.php:310 admin/settings.php:315 admin/settings.php:401
-#: admin/settings.php:441 admin/settings.php:446 admin/settings.php:460
-#: admin/settings.php:667 admin/settings.php:677 admin/settings.php:791
-#: admin/settings.php:842 admin/settings.php:852
+#: admin/metabox.php:301 admin/settings.php:315 admin/settings.php:397
+#: admin/settings.php:437 admin/settings.php:442 admin/settings.php:456
+#: admin/settings.php:663 admin/settings.php:673 admin/settings.php:788
+#: admin/settings.php:839 admin/settings.php:849
 msgid "Yes"
 msgstr "نعم"
 
-#: admin/metabox.php:311 admin/settings.php:316 admin/settings.php:402
-#: admin/settings.php:442 admin/settings.php:447 admin/settings.php:461
-#: admin/settings.php:668 admin/settings.php:678 admin/settings.php:792
-#: admin/settings.php:843 admin/settings.php:853
+#: admin/metabox.php:302 admin/settings.php:316 admin/settings.php:398
+#: admin/settings.php:438 admin/settings.php:443 admin/settings.php:457
+#: admin/settings.php:664 admin/settings.php:674 admin/settings.php:789
+#: admin/settings.php:840 admin/settings.php:850
 msgid "No"
 msgstr "لا"
 
-#: admin/metabox.php:317 admin/settings.php:467
+#: admin/metabox.php:308 admin/settings.php:463
 msgid "Share post content with"
 msgstr "مشاركة محتوى المنشور مع"
 
-#: admin/metabox.php:320 admin/settings.php:470
+#: admin/metabox.php:311 admin/settings.php:466
 msgid "Public"
 msgstr "عامة"
 
-#: admin/metabox.php:321
+#: admin/metabox.php:312
 msgid "Connections only"
 msgstr "التوصيلات فقط"
 
-#: admin/metabox.php:326 admin/settings.php:406
+#: admin/metabox.php:317 admin/settings.php:402
 msgid "Message format for posting"
 msgstr "تنسيق الرسالة للنشر"
 
-#: admin/metabox.php:330 admin/settings.php:410
+#: admin/metabox.php:321 admin/settings.php:406
 msgid "Insert the title of your post."
 msgstr "أدخل عنوان المنشور الخاص بك."
 
-#: admin/metabox.php:331 admin/settings.php:411
+#: admin/metabox.php:322 admin/settings.php:407
 msgid "Insert the URL where your post is displayed."
 msgstr "أدخل عنوان URL حيث يتم عرض منشورك."
 
-#: admin/metabox.php:332 admin/settings.php:412
+#: admin/metabox.php:323 admin/settings.php:408
 msgid "Insert the excerpt of your post."
 msgstr "أدخل مقتطف من رسالتك."
 
-#: admin/metabox.php:333 admin/settings.php:413
+#: admin/metabox.php:324 admin/settings.php:409
 msgid "Insert the description of your post."
 msgstr "أدخل وصف منشورك."
 
-#: admin/metabox.php:334 admin/settings.php:414
+#: admin/metabox.php:325 admin/settings.php:410
 msgid "Insert the name of your blog."
 msgstr "أدخل اسم مدونتك."
 
-#: admin/metabox.php:335 admin/settings.php:415
+#: admin/metabox.php:326 admin/settings.php:411
 msgid "Insert the nicename of the author."
 msgstr "أدخل اسم المؤلف."
 
-#: admin/metabox.php:336 admin/settings.php:416
+#: admin/metabox.php:327 admin/settings.php:412
 msgid "Insert the ID of your post."
 msgstr "أدخل معرف منشورك."
 
-#: admin/metabox.php:337 admin/settings.php:417
+#: admin/metabox.php:328 admin/settings.php:413
 msgid "Insert the publish date of your post."
 msgstr "أدخل تاريخ نشر رسالتك."
 
-#: admin/metabox.php:338 admin/settings.php:418
+#: admin/metabox.php:329 admin/settings.php:414
 msgid "Insert the display name of the author."
 msgstr "أدخل اسم عرض المؤلف."
 
-#: admin/metabox.php:343 admin/settings.php:422
+#: admin/metabox.php:334 admin/settings.php:418
 msgid "Select"
 msgstr "اختار"
 
-#: admin/metabox.php:360 admin/settings.php:380
+#: admin/metabox.php:351 admin/settings.php:376
 msgid "Posting method"
 msgstr "طريقة الإرسال"
 
-#: admin/metabox.php:364 admin/settings.php:386
+#: admin/metabox.php:355 admin/settings.php:382
 msgid "Simple text message"
 msgstr "رسالة نصية بسيطة"
 
-#: admin/metabox.php:366 admin/settings.php:388
+#: admin/metabox.php:357 admin/settings.php:384
 msgid "Attach your blog post"
 msgstr "إرفاق وظيفة بلوق الخاص بك"
 
-#: admin/metabox.php:368 admin/settings.php:390
+#: admin/metabox.php:359 admin/settings.php:386
 msgid "Text message with image"
 msgstr "رسالة نصية مع صورة"
 
@@ -891,7 +891,7 @@ msgstr "حقول ملف التعريف الأساسي للتطبيق + صفحا�
 msgid "(requires app submission and LinkedIn review)"
 msgstr "(يتطلب إرسال التطبيق ومراجعة ينكدين)"
 
-#: admin/settings.php:327 admin/settings.php:373
+#: admin/settings.php:327 admin/settings.php:369
 msgid "How can I create a Linkedin Application"
 msgstr "كيف يمكنني إنشاء تطبيق لينكد إن"
 
@@ -908,16 +908,15 @@ msgstr "يبدأ من 10 دولارات أمريكية سنويًا"
 msgid "30 DAYS FREE TRIAL AVAILABLE"
 msgstr "تتوفر نسخة تجريبية مجانية لمدة 30 يومًا"
 
-#: admin/settings.php:341
+#: admin/settings.php:339
 msgid "LinkedIn Sign-In Method"
 msgstr "ينكدين طريقة تسجيل الدخول"
 
-#: admin/settings.php:343
+#: admin/settings.php:341
 msgid ""
 "Starting from August 1, 2023, \"<b>Sign In with LinkedIn</b>\" (SIWL) has "
 "been deprecated. For all new apps, we strongly recommend using \"<b>Sign In "
 "with LinkedIn using OpenID Connect</b>\" as the preferred Sign-In method.\n"
-"\n"
 "<br/>Existing apps that are currently utilizing \"Sign In with LinkedIn,\" "
 "can continue to do so. If you decide transition to \"Sign In with LinkedIn "
 "using OpenID Connect,\" please ensure that you add this option under your "
@@ -925,45 +924,52 @@ msgid ""
 msgstr ""
 "‫\n"
 "‬\n"
-"‫اعتبارًا من 1 أغسطس 2023، تم إيقاف ميزة “تسجيل الدخول باستخدام "
+"‏‫‬\n"
+"‬\n"
+"‫‫اعتبارًا من 1 أغسطس 2023، تم إيقاف ميزة “تسجيل الدخول باستخدام "
 "LinkedIn” (SIWL). بالنسبة لجميع التطبيقات الجديدة، نوصي بشدة باستخدام “تسجيل "
 "الدخول باستخدام LinkedIn باستخدام OpenID Connect” باعتبارها طريقة تسجيل "
 "الدخول المفضلة.\n"
 "‬\n"
-"‏‫\n"
+"‏‫‬\n"
 "‬\n"
-"‫يمكن للتطبيقات الموجودة التي تستخدم حاليًا “تسجيل الدخول باستخدام LinkedIn” "
+"‫‏‫\n"
+"‬\n"
+"‏‫‬\n"
+"‬\n"
+"‫‫يمكن للتطبيقات الموجودة التي تستخدم حاليًا “تسجيل الدخول باستخدام LinkedIn” "
 "الاستمرار في القيام بذلك. إذا قررت الانتقال إلى “تسجيل الدخول باستخدام "
 "LinkedIn باستخدام OpenID Connect”، فيرجى التأكد من إضافة هذا الخيار ضمن قسم "
 "منتج تطبيق LinkedIn Developer الخاص بك.\n"
-"‬"
+"‬\n"
+"‫"
 
-#: admin/settings.php:349
+#: admin/settings.php:346
 msgid "Sign In with LinkedIn"
 msgstr "تسجيل الدخول مع لينكد إن"
 
-#: admin/settings.php:351
+#: admin/settings.php:348
 msgid "Sign In with LinkedIn using OpenID Connect"
 msgstr "قم بتسجيل الدخول باستخدام LinkedIn باستخدام OpenID Connect"
 
-#: admin/settings.php:364
+#: admin/settings.php:360
 #, php-format
 msgid "Connect your %s account"
 msgstr "قم بتوصيل حساب% s الخاص بك"
 
-#: admin/settings.php:370
+#: admin/settings.php:366
 msgid "Client ID"
 msgstr "معرف العميل"
 
-#: admin/settings.php:375
+#: admin/settings.php:371
 msgid "Client secret"
 msgstr "سر العميل"
 
-#: admin/settings.php:395
+#: admin/settings.php:391
 msgid "Enforce og tags for LinkedIn"
 msgstr "فرض علامات og لـ ينكدين"
 
-#: admin/settings.php:397
+#: admin/settings.php:393
 msgid ""
 "If you enable, Open Graph tags will be generated while posting to LinkedIn, "
 "when using the posting method,<b> Attach your blog post."
@@ -971,123 +977,123 @@ msgstr ""
 "إذا قمت بتمكين ، فسيتم إنشاء علامات Open Graph أثناء النشر على LinkedIn ، "
 "وعند استخدام طريقة النشر ، <b> أرفق منشور المدونة الخاص بك."
 
-#: admin/settings.php:419
+#: admin/settings.php:415
 msgid "Optional"
 msgstr "غير إجبارى"
 
-#: admin/settings.php:438 admin/settings.php:458
+#: admin/settings.php:434 admin/settings.php:454
 msgid "Share post to profile"
 msgstr "مشاركة في الملف الشخصي"
 
-#: admin/settings.php:469
+#: admin/settings.php:465
 msgid "Connections"
 msgstr "روابط"
 
-#: admin/settings.php:475
+#: admin/settings.php:471
 msgid "Select pages for auto publish"
 msgstr "حدد الصفحات للنشر التلقائي"
 
-#: admin/settings.php:493
+#: admin/settings.php:489
 msgid "Failed to fetch company details."
 msgstr "فشل إحضار تفاصيل الشركة."
 
-#: admin/settings.php:510 admin/settings.php:514 admin/settings.php:533
+#: admin/settings.php:506 admin/settings.php:510 admin/settings.php:529
 msgid "No companies found."
 msgstr "لم يتم العثور على شركات."
 
-#: admin/settings.php:523
+#: admin/settings.php:519
 msgid "Share post to company page"
 msgstr "مشاركة المنشور على صفحة الشركة"
 
-#: admin/settings.php:548
+#: admin/settings.php:544
 msgid "Save"
 msgstr "حفظ"
 
-#: admin/settings.php:552
+#: admin/settings.php:548
 msgid "Free trial is available only for first time users"
 msgstr "الإصدار التجريبي المجاني متاح فقط للمستخدمين لأول مرة"
 
-#: admin/settings.php:555
+#: admin/settings.php:551
 msgid "Use reauthorize button to change selected values"
 msgstr "استخدم زر إعادة التفويض لتغيير القيم المحددة"
 
-#: admin/settings.php:661
+#: admin/settings.php:657
 msgid "Basic Settings"
 msgstr "الإعدادات الأساسية"
 
-#: admin/settings.php:664
+#: admin/settings.php:660
 msgid "Publish wordpress `pages` to linkedin"
 msgstr "انشر ووردبرس \"صفحات\" على موقع لينكد إن"
 
-#: admin/settings.php:674
+#: admin/settings.php:670
 msgid "Publish wordpress `posts` to linkedin"
 msgstr "انشر \"مشاركات\" ووردبريس على موقع لينكد إن"
 
-#: admin/settings.php:700
+#: admin/settings.php:696
 msgid "Select wordpress custom post types for auto publish"
 msgstr "حدد أنواع منشورات ووردبريس المخصصة للنشر التلقائي"
 
-#: admin/settings.php:718
+#: admin/settings.php:714
 msgid "Advanced Settings"
 msgstr "إعدادات متقدمة"
 
-#: admin/settings.php:721
+#: admin/settings.php:717
 msgid "Select post categories for auto publish"
 msgstr "حدد فئات النشر للنشر التلقائي"
 
-#: admin/settings.php:727
+#: admin/settings.php:723
 msgid "All"
 msgstr "الجميع"
 
-#: admin/settings.php:729
+#: admin/settings.php:725
 msgid "Specific"
 msgstr "محدد"
 
-#: admin/settings.php:764
+#: admin/settings.php:760
 msgid "NIL"
 msgstr "لا شيء"
 
-#: admin/settings.php:770
+#: admin/settings.php:766
 msgid "Auto publish on editing posts/pages/custom post types"
 msgstr "النشر التلقائي عند تحرير المنشورات / الصفحات / أنواع المنشورات المخصصة"
 
-#: admin/settings.php:773 admin/settings.php:782
+#: admin/settings.php:769 admin/settings.php:778
 msgid "Enabled"
 msgstr "ممكن"
 
-#: admin/settings.php:774 admin/settings.php:783
+#: admin/settings.php:770 admin/settings.php:779
 msgid "Disabled"
 msgstr "مصاب بعجز"
 
-#: admin/settings.php:775
-msgid "Use settings from post creation or post updation"
-msgstr "استخدم الإعدادات من إنشاء المنشور أو ما بعد التحديث"
+#: admin/settings.php:771 admin/settings.php:780
+msgid "Use metabox settings"
+msgstr "الاعدادات العامة"
 
-#: admin/settings.php:779
+#: admin/settings.php:775
 msgid "Auto publish on creating posts/pages/custom post types"
 msgstr "النشر التلقائي عند إنشاء منشورات / صفحات / أنواع منشورات مخصصة"
 
-#: admin/settings.php:789
+#: admin/settings.php:786
 msgid "Enable SSL peer verification in remote requests"
 msgstr "تمكين التحقق من الأقران SSL في الطلبات البعيدة"
 
-#: admin/settings.php:797
+#: admin/settings.php:794
 msgid "Apply filters during publishing"
 msgstr "تطبيق المرشحات أثناء النشر"
 
-#: admin/settings.php:836
+#: admin/settings.php:833
 msgid "Other Settings"
 msgstr "اعدادات اخرى"
 
-#: admin/settings.php:839
+#: admin/settings.php:836
 msgid "Enable credit link to author"
 msgstr "تمكين ارتباط الائتمان للمؤلف"
 
-#: admin/settings.php:849
+#: admin/settings.php:846
 msgid "Enable premium version ads"
 msgstr "تمكين الإصدار المتميز للإعلانات"
 
-#: admin/settings.php:861
+#: admin/settings.php:858
 msgid "Update Settings"
 msgstr "تحديث الاعدادات"
 

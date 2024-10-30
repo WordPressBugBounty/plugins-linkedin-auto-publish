@@ -101,15 +101,6 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 		</td>
 	</tr>
 		<tr>
-		<td> <?php _e('Publish to facebook groups','linkedin-auto-publish'); ?> </td>
-		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
-		</td>
-		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
-		</td>
-		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
-		</td>
-	</tr>
-	<tr>
 		<td> <?php _e('Publish to twitter profile','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
@@ -219,6 +210,15 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	</tr>
 	<tr>
 		<td> <?php _e('Option to use post tags as hash tags','linkedin-auto-publish'); ?> </td>
+		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+	</tr>
+	<tr>
+		<td> <?php _e('Option to use post categories as hash tags','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">

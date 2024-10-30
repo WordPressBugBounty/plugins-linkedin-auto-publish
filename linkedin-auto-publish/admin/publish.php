@@ -21,6 +21,11 @@ function xyz_link_lnap_future_to_publish($new_status, $old_status, $post){
 		$GLOBALS['lnap_dup_publish']=array();
 
 	$postid =$post->ID;
+	$post_published_date_time=$post_modified_date_time=time();
+	if ($post) {
+		$post_published_date_time = strtotime(get_the_date('Y-m-d H:i:s', $postid));
+		$post_modified_date_time = strtotime(get_the_modified_date('Y-m-d H:i:s', $postid));
+	}
 	$get_post_meta=get_post_meta($postid,"xyz_lnap",true);
 	$get_post_meta_future_data=get_post_meta($postid,"xyz_lnap_future_to_publish",true);
 	$lnpost_permission=get_option('xyz_lnap_lnpost_permission');
@@ -42,7 +47,22 @@ function xyz_link_lnap_future_to_publish($new_status, $old_status, $post){
 			if($new_status == 'publish')
 			{
 				if ($get_post_meta == 1 ) {
+					if(get_option('xyz_lnap_default_selection_edit')==0)
 					return;
+				}
+				else //prevent backend publish
+				{
+					//post meta not 1, edited post
+					if (($post_modified_date_time != $post_published_date_time) && $old_status=='publish' ) 
+					{//already plublished ,auto publish on edit is disabled
+						if ((get_option('xyz_lnap_default_selection_edit') == 0))
+							return;
+					}
+					//post meta not 1, new post ,auto publish on create is disabled
+					else{
+					if ((get_option('xyz_lnap_default_selection_create') == 0))
+						return;
+					}
 				}
 			}
 			else return;
@@ -75,20 +95,21 @@ function xyz_lnap_link_publish($post_ID) {
 	$xyz_lnap_ln_shareprivate=$xyz_lnap_lnpost_method=$lmessagetopost='';
 	$get_post_meta_future_data=get_post_meta($post_ID,"xyz_lnap_future_to_publish",true);
 	$lnpost_permission=get_option('xyz_lnap_lnpost_permission');
-	if(isset($_POST['xyz_lnap_lnpost_permission']))
-		$lnpost_permission=$_POST['xyz_lnap_lnpost_permission'];
-	elseif(!empty($get_post_meta_future_data) && get_option('xyz_lnap_default_selection_edit')==2 )///select values from post meta
+	$get_post_meta=get_post_meta($post_ID,"xyz_lnap",true);
+	if(!empty($get_post_meta_future_data) && ((get_option('xyz_lnap_default_selection_edit')==2 && $get_post_meta==1) || (get_option('xyz_lnap_default_selection_create')==2 && $get_post_meta!=1 )))///select values from post meta
 	{
 		$lnpost_permission=$get_post_meta_future_data['post_ln_permission'];
 		$xyz_lnap_ln_shareprivate=$get_post_meta_future_data['xyz_lnap_ln_shareprivate'];
 		$xyz_lnap_lnpost_method=$get_post_meta_future_data['xyz_lnap_lnpost_method'];
 		$lmessagetopost=$get_post_meta_future_data['xyz_lnap_lnmessage'];
 	}
+	if(isset($_POST['xyz_lnap_lnpost_permission']))
+	$lnpost_permission=$_POST['xyz_lnap_lnpost_permission'];
 
 	if ($lnpost_permission != 1) {
 		$_POST=$_POST_CPY;
 		return ;
-	} else if(( (isset($_POST['_inline_edit'])) || (isset($_REQUEST['bulk_edit'])) ) && (get_option('xyz_lnap_default_selection_edit') == 0))
+	} else if(( (isset($_POST['_inline_edit'])) || (isset($_REQUEST['bulk_edit'])) ) && (get_option('xyz_lnap_default_selection_edit') == 0 && $get_post_meta==1))
 	{
 		$_POST=$_POST_CPY;
 		return;
@@ -284,7 +305,7 @@ if ($xyz_lnap_ln_shareprivate=='')
 			$name_li=xyz_lnap_string_limit($name, 200);
 			$message1=str_replace('{POST_TITLE}', $name, $lmessagetopost);
 			$message2=str_replace('{BLOG_TITLE}', $caption,$message1);
-			$message3=str_replace('{PERMALINK}', $link, $message2);
+			$message3=str_replace('{PERMALINK}',' '.$link.' ', $message2);
 			$message4=str_replace('{POST_EXCERPT}', $excerpt, $message3);
 			$message5=str_replace('{POST_CONTENT}', $description, $message4);
 			$message5=str_replace('{USER_NICENAME}', $user_nicename, $message5);
@@ -533,7 +554,7 @@ if ($xyz_lnap_ln_shareprivate=='')
 				if (isset($post_id_response) && !empty($post_id_response)){
 					$linkedin_post="www.linkedin.com/feed/update/".$post_id_response;
 					// $linkedin_post="https://www.linkedin.com/feed/update/urn:li:share:".$image_param;
-					$post_link='<br/><span style="color:#21759B;text-decoration:underline;"><a  href="https://'.$linkedin_post.'">View Post</a></span>';
+					$post_link='<br/><span style="color:#21759B;text-decoration:underline;"><a target=\"_blank\" href="https://'.$linkedin_post.'">View Post</a></span>';
 					$ln_publish_status["new"].="<span style=\"color:green\">profile:Success.</span>".$post_link;
 				}
 				else if(isset($error_message) && !empty($error_message))
@@ -712,7 +733,7 @@ if ($xyz_lnap_ln_shareprivate=='')
 							if (isset($post_id_response) && !empty($post_id_response)){
 								$linkedin_post="www.linkedin.com/feed/update/".$post_id_response;
 								// $linkedin_post="https://www.linkedin.com/feed/update/urn:li:share:".$image_param;
-								$post_link='<br/><span style="color:#21759B;text-decoration:underline;"><a  href="https://'.$linkedin_post.'">View Post</a></span>';
+								$post_link='<br/><span style="color:#21759B;text-decoration:underline;"><a target=\"_blank\" href="https://'.$linkedin_post.'">View Post</a></span>';
 								$ln_publish_status_comp["new"].="<br/><span style=\"color:green\">company/".$xyz_lnap_ln_company_id." :Success.</span>".$post_link;
 							}
 							else if(isset($error_message) && !empty($error_message))
