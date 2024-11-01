@@ -4,7 +4,7 @@ Donate link: https://xyzscripts.com/donate/
 Tags:  linkedin auto publish, wp to linkedin auto publish, linkedIn publishing, post to linkedIn, linkedin, social media auto publish, social media publishing, social network auto publish, social media, social network, add link to linkedIn, post to linkedIn company pages, linkedin companies
 Requires at least: 2.8
 Tested up to: 6.6.2
-Stable tag: 1.9.3
+Stable tag: 1.9.4
 License: GPLv2 or later
 
 Publish posts automatically to LinkedIn.
@@ -122,6 +122,9 @@ SSL peer verification may not be functioning in your server. Please turn off SSL
 4. Auto publish logs.
 
 == Changelog ==
+
+= WP to LinkedIn Auto Publish 1.9.4 =
+* Fixed reported compatibility issues
 
 = WP to LinkedIn Auto Publish 1.9.3 =
 * New settings value "Use metabox settings" added for "Auto publish on creating posts/pages/custom post types" to handle draft and scheduled posts
