@@ -48,13 +48,13 @@ if(!function_exists('xyz_lnap_links')){
 		$base = plugin_basename(XYZ_LNAP_PLUGIN_FILE);
 		if ($file == $base) {
 
-			$links[] = '<a href="http://help.xyzscripts.com/docs/linkedin-auto-publish/faq/"  title="FAQ">FAQ</a>';
-			$links[] = '<a href="http://help.xyzscripts.com/docs/linkedin-auto-publish/"  title="Read Me">README</a>';
-			$links[] = '<a href="https://xyzscripts.com/support/" class="xyz_support" title="Support"></a>';
-			$links[] = '<a href="http://twitter.com/xyzscripts" class="xyz_twitt" title="Follow us on twitter"></a>';
-			$links[] = '<a href="https://www.facebook.com/xyzscripts" class="xyz_fbook" title="Facebook"></a>';
-// 			$links[] = '<a href="https://plus.google.com/+Xyzscripts" class="xyz_gplus" title="+1"></a>';
-			$links[] = '<a href="http://www.linkedin.com/company/xyzscripts" class="xyz_linkdin" title="Follow us on linkedIn"></a>';
+			$links[] = '<a href="https://help.xyzscripts.com/docs/linkedin-auto-publish/faq/"  title="FAQ">FAQ</a>';
+			$links[] = '<a href="https://help.xyzscripts.com/docs/linkedin-auto-publish/"  title="Read Me">README</a>';
+			$links[] = '<a href="https://xyzscripts.com/support/" class="xyz_lnap_support" title="Support"></a>';
+			$links[] = '<a href="https://twitter.com/xyzscripts" class="xyz_lnap_twitt" title="Follow us on twitter"></a>';
+			$links[] = '<a href="https://www.facebook.com/xyzscripts" class="xyz_lnap_fbook" title="Facebook"></a>';
+			$links[] = '<a href="https://www.linkedin.com/company/xyzscripts" class="xyz_lnap_linkdin" title="Follow us on linkedIn"></a>';
+			$links[] = '<a href="https://www.instagram.com/xyz_scripts/" class="xyz_lnap_insta" title="Follow us on Instagram"></a>';
 		}
 		return $links;
 	}

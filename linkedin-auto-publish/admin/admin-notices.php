@@ -42,14 +42,14 @@ $xyz_lnap_notice = wp_nonce_url($xyz_lnap_notice,'lnap-shw');
 	   echo $lnap_thanks_msg; ?></p>
 	
        <p>
-       <a href="https://wordpress.org/support/plugin/linkedin-auto-publish/reviews" class="button xyz_rate_btn" target="_blank"> <?php _e('Rate it 5★\'s on wordpress','linkedin-auto-publish'); ?> </a>
+       <a href="https://wordpress.org/support/plugin/linkedin-auto-publish/reviews" class="button xyz_lnap_rate_btn" target="_blank"> <?php _e('Rate it 5★\'s on wordpress','linkedin-auto-publish'); ?> </a>
        <?php if(get_option('xyz_credit_link')=="0") ?>
-		<a href="<?php echo $xyz_lnap_link; ?>" class="button xyz_backlink_btn xyz_blink"> <?php _e('Enable Backlink','linkedin-auto-publish'); ?> </a>
+		<a href="<?php echo $xyz_lnap_link; ?>" class="button xyz_lnap_backlink_btn xyz_blink"> <?php _e('Enable Backlink','linkedin-auto-publish'); ?> </a>
 	
-	<a class="button xyz_share_btn" onclick=xyz_lnap_shareon_tckbox();> <?php _e('Share on','linkedin-auto-publish'); ?></a>
-		<a href="https://xyzscripts.com/donate/5" class="button xyz_donate_btn" target="_blank"> <?php _e('Donate','linkedin-auto-publish'); ?> </a>
+	<a class="button xyz_lnap_share_btn" onclick=xyz_lnap_shareon_tckbox();> <?php _e('Share on','linkedin-auto-publish'); ?></a>
+		<a href="https://xyzscripts.com/donate/5" class="button xyz_lnap_donate_btn" target="_blank"> <?php _e('Donate','linkedin-auto-publish'); ?> </a>
 	
-	<a href="<?php echo $xyz_lnap_notice; ?>" class="button xyz_show_btn">  <?php _e('Don\'t Show This Again','linkedin-auto-publish'); ?> </a>
+	<a href="<?php echo $xyz_lnap_notice; ?>" class="button xyz_lnap_show_btn">  <?php _e('Don\'t Show This Again','linkedin-auto-publish'); ?> </a>
 	</p>
 	
 	<div id="show_share_icons_ln" style="display: none;">

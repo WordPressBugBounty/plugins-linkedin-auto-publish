@@ -23,10 +23,10 @@ if(!$_POST && isset($_GET['lnap_notice']) && $_GET['lnap_notice'] == 'hide')
 display:none !important;
 }
 </style>
-<div class="system_notice_area_style1" id="system_notice_area">
+<div class="xyz_lnap_system_notice_area_style1" id="xyz_lnap_system_notice_area">
 <?php _e('Thanks again for using the plugin. We will never show the message again.','linkedin-auto-publish');?>
  &nbsp;&nbsp;&nbsp;<span
-		id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
+		id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
 </div>
 <?php
 }
@@ -39,10 +39,10 @@ if(!$_POST && isset($_GET['ln_auth_err']) && $_GET['ln_auth_err'] != '')
 display:none !important;
 }
 </style>
-<div class="system_notice_area_style0" id="system_notice_area">
+<div class="xyz_lnap_system_notice_area_style0" id="xyz_lnap_system_notice_area">
 <?php echo esc_html($_GET['ln_auth_err']);?>
  &nbsp;&nbsp;&nbsp;<span
-		id="system_notice_area_dismiss" class="xyz_lnap_hide_ln_authErr"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
+		id="xyz_lnap_system_notice_area_dismiss" class="xyz_lnap_hide_ln_authErr"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
 </div>
 
 <?php
@@ -154,47 +154,47 @@ if(isset($_POST['linkdn']))
 }
 if(isset($_POST['linkdn']) && $lerf==0)
 {?>
-<div class="system_notice_area_style1" id="system_notice_area">
+<div class="xyz_lnap_system_notice_area_style1" id="xyz_lnap_system_notice_area">
 	<?php _e('Settings updated successfully','linkedin-auto-publish');?>.. &nbsp;&nbsp;&nbsp;<span
-		id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
+		id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
 </div>
 <?php }
 if(isset($_GET['msg']) && $_GET['msg']==1)
 { ?>
-<div class="system_notice_area_style0" id="system_notice_area">
+<div class="xyz_lnap_system_notice_area_style0" id="xyz_lnap_system_notice_area">
 	<?php _e('Unable to authorize the linkedin application. Please check the details.','linkedin-auto-publish'); ?> &nbsp;&nbsp;&nbsp;<span
-		id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
+		id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
 </div>
 <?php }
 if(isset($_GET['msg']) && $_GET['msg'] == 4){
 	?>
-<div class="system_notice_area_style1" id="system_notice_area">
+<div class="xyz_lnap_system_notice_area_style1" id="xyz_lnap_system_notice_area">
 	
 <?php _e('Account has been authenticated successfully.','linkedin-auto-publish'); ?> &nbsp;&nbsp;&nbsp;<span
-id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
+id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
 </div>
 <?php
 }
 if(isset($_GET['msg']) && $_GET['msg']==5)
 {?>
-<div class="system_notice_area_style1" id="system_notice_area">
+<div class="xyz_lnap_system_notice_area_style1" id="xyz_lnap_system_notice_area">
 	<?php $lnap_xyzscripts_name="xyzscripts";
 	$lnap_xyz_success_msg=sprintf(__('Successfully connected to %s member area','linkedin-auto-publish'),$lnap_xyzscripts_name);
 	echo $lnap_xyz_success_msg; ?>. &nbsp;&nbsp;&nbsp;<span
-	id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
+	id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?> </span>
 </div>
 <?php }
 if(isset($_POST['linkdn']) && $lerf==1)
 {
 	?>
-<div class="system_notice_area_style0" id="system_notice_area">
+<div class="xyz_lnap_system_notice_area_style0" id="xyz_lnap_system_notice_area">
 	<?php 
 	 if(isset($_POST['linkdn']))
 	{
 		echo esc_html($lms1);echo esc_html($lms2);echo esc_html($lms3);echo esc_html($lms4);
 	}
 	?>
-	&nbsp;&nbsp;&nbsp;<span id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?>  </span>
+	&nbsp;&nbsp;&nbsp;<span id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish');?>  </span>
 </div>
 <?php } ?>
 <script type="text/javascript">
@@ -247,7 +247,7 @@ if (get_option('xyz_lnap_ln_api_permission')!=2)
 	<span style="color:red; "> <?php _e('Application needs authorisation','linkedin-auto-publish'); ?> </span><br>	
             <form method="post" >
 			 <?php wp_nonce_field( 'xyz_lnap_auth_nonce' );?>
-			<input type="submit" class="submit_lnap_new" name="lnauth" value="<?php _e('Authorize','linkedin-auto-publish'); ?>" />
+			<input type="submit" class="xyz_lnap_submit_lnap_new" name="lnauth" value="<?php _e('Authorize','linkedin-auto-publish'); ?>" />
 			<br><br>
 			</form>
 			<?php  }
@@ -256,7 +256,7 @@ if (get_option('xyz_lnap_ln_api_permission')!=2)
 				?>
             <form method="post" >
 			<?php wp_nonce_field( 'xyz_lnap_auth_nonce' );?>
-			<input type="submit" class="submit_lnap_new" name="lnauth" value="<?php _e('Reauthorize','linkedin-auto-publish'); ?>" title="Reauthorize the account" />
+			<input type="submit" class="xyz_lnap_submit_lnap_new" name="lnauth" value="<?php _e('Reauthorize','linkedin-auto-publish'); ?>" title="Reauthorize the account" />
 			<br><br>
 			</form>
 	<?php } 
@@ -273,7 +273,7 @@ else
  		<form method="post">
  		<?php wp_nonce_field( 'xyz_lnap_ln_auth_nonce' );?>
  		 <input type="hidden" value="<?php echo  (is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST']; ?>" id="parent_domain">
- 		<input type="submit" class="submit_lnap_new" name="ln_auth"
+ 		<input type="submit" class="xyz_lnap_submit_lnap_new" name="ln_auth"
  			value="<?php _e('Authorize','linkedin-auto-publish'); ?>" onclick="javascript:return lnap_popup_ln_auth('<?php echo urlencode($domain_name);?>','<?php echo $xyz_lnap_smapsoln_userid;?>','<?php echo $xyzscripts_user_id;?>','<?php echo $xyzscripts_hash_val;?>','<?php echo $auth_secret_key;?>','<?php echo $request_hash;?>');void(0);"/><br><br>
  		</form> 
  		</span>
@@ -285,7 +285,7 @@ else
  		<form method="post" id="re_auth_message">
  		<?php wp_nonce_field( 'xyz_lnap_ln_auth_nonce' );?>
  		<input type="hidden" value="<?php echo  (is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST']; ?>" id="parent_domain">
- 		<input type="submit" class="submit_lnap_new" name="ln_auth"
+ 		<input type="submit" class="xyz_lnap_submit_lnap_new" name="ln_auth"
  		value="<?php _e('Reauthorize','linkedin-auto-publish'); ?> " title="Reauthorize the account" onclick="javascript:return lnap_popup_ln_auth('<?php echo urlencode($domain_name);?>','<?php echo $xyz_lnap_smapsoln_userid;?>','<?php echo $xyzscripts_user_id;?>','<?php echo $xyzscripts_hash_val;?>','<?php echo $auth_secret_key;?>','<?php echo $request_hash;?>');void(0);"/><br><br>
  		</form>
  	<?php }
@@ -311,13 +311,13 @@ else
 	<table class="widefat xyz_lnap_widefat_table" style="width: 99%">
 	
 	<tr valign="top"><td> <?php _e('Enable auto publish posts to my linkedin account','linkedin-auto-publish'); ?></td>
-		<td  class="switch-field">
+		<td  class="xyz_lnap_switch_field">
 			<label id="xyz_lnap_lnpost_permission_yes"><input type="radio" name="xyz_lnap_lnpost_permission" value="1" <?php  if(get_option('xyz_lnap_lnpost_permission')==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 			<label id="xyz_lnap_lnpost_permission_no"><input type="radio" name="xyz_lnap_lnpost_permission" value="0" <?php  if(get_option('xyz_lnap_lnpost_permission')==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish'); ?> </label>
 		</td>
 	</tr>	
 	
-	<tr valign="top"><td width="50%"> <?php $v2api="V2 API"; $v2api_usage=sprintf(__('%s usage','linkedin-auto-publish'),$v2api);echo $v2api_usage; ?> <span class="mandatory">*</span>
+	<tr valign="top"><td width="50%"> <?php $v2api="V2 API"; $v2api_usage=sprintf(__('%s usage','linkedin-auto-publish'),$v2api);echo $v2api_usage; ?> <span class="xyz_lnap_mandatory">*</span>
 	</td>
 	<td>
 	<input type="radio" name="xyz_lnap_ln_api_permission" id="xyz_lnap_ln_api_permission_basic" value="0" <?php if (get_option('xyz_lnap_ln_api_permission')==0) echo 'checked';?>/>
@@ -337,7 +337,7 @@ else
 	</td></tr>
 <tr valign="top" class="xyz_linkedin_settings">
 	<td scope="row" colspan="1" width="50%"> <?php _e('LinkedIn Sign-In Method','linkedin-auto-publish'); ?> <img src="<?php echo $heimg?>" onmouseover="detdisplay_lnap('xyz_lnap_sign_in')" onmouseout="dethide_lnap('xyz_lnap_sign_in')" style="width:13px;height:auto;">
-	<div id="xyz_lnap_sign_in" class="lnap_informationdiv" style="display: none;width: 400px;">
+	<div id="xyz_lnap_sign_in" class="xyz_lnap_informationdiv" style="display: none;width: 400px;">
 	<?php _e('Starting from August 1, 2023, "<b>Sign In with LinkedIn</b>" (SIWL) has been deprecated. For all new apps, we strongly recommend using "<b>Sign In with LinkedIn using OpenID Connect</b>" as the preferred Sign-In method.
 <br/>Existing apps that are currently utilizing "Sign In with LinkedIn," can continue to do so. If you decide transition to "Sign In with LinkedIn using OpenID Connect," please ensure that you add this option under your LinkedIn Developer App"s product section.','linkedin-auto-publish'); ?> </b>
 	</div>
@@ -389,11 +389,11 @@ else
 	</tr>
 	<tr valign="top">
 	<td> <?php _e('Enforce og tags for LinkedIn','linkedin-auto-publish'); ?> <img src="<?php echo $heimg?>" onmouseover="detdisplay_lnap('xyz_lnap_enforce_og')" onmouseout="dethide_lnap('xyz_lnap_enforce_og')" style="width:13px;height:auto;">
-	<div id="xyz_lnap_enforce_og" class="lnap_informationdiv" style="display: none;width: 400px;">
+	<div id="xyz_lnap_enforce_og" class="xyz_lnap_informationdiv" style="display: none;width: 400px;">
 	<?php _e('If you enable, Open Graph tags will be generated while posting to LinkedIn, when using the posting method,<b> Attach your blog post.','linkedin-auto-publish'); ?> </b>
 	</div>
 	</td>
-	<td  class="switch-field">
+	<td  class="xyz_lnap_switch_field">
 		<label id="xyz_lnap_enforce_og_tags_yes" class="xyz_lnap_toggle_off"><input type="radio" name="xyz_lnap_enforce_og_tags" value="1" <?php  if(get_option('xyz_lnap_enforce_og_tags')==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 		<label id="xyz_lnap_enforce_og_tags_no" class="xyz_lnap_toggle_on"><input type="radio" name="xyz_lnap_enforce_og_tags" value="0" <?php  if(get_option('xyz_lnap_enforce_og_tags')==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish'); ?> </label>
     </td>
@@ -401,7 +401,7 @@ else
 	<tr valign="top">
 					<td> <?php _e('Message format for posting','linkedin-auto-publish'); ?> <img src="<?php echo $heimg?>"
 						onmouseover="detdisplay_lnap('xyz_ln')" onmouseout="dethide_lnap('xyz_ln')" style="width:13px;height:auto;">
-						<div id="xyz_ln" class="lnap_informationdiv"
+						<div id="xyz_ln" class="xyz_lnap_informationdiv"
 							style="display: none; font-weight: normal;">
 							{POST_TITLE} - <?php _e('Insert the title of your post.','linkedin-auto-publish'); ?><br/>
 							{PERMALINK} - <?php _e('Insert the URL where your post is displayed.','linkedin-auto-publish'); ?><br/>
@@ -432,7 +432,7 @@ else
 	//////////////////////////////////////////////
 	?>
 	<tr valign="top"><td> <?php _e('Share post to profile','linkedin-auto-publish'); ?> </td>
-	<td  class="switch-field">
+	<td  class="xyz_lnap_switch_field">
 	<?php  if(get_option('xyz_lnap_lnshare_to_profile')==0){?>
 		<label id="xyz_lnap_lnshare_to_profile_smap_yes" class="xyz_lnap_toggle_off"><input type="radio" name="xyz_lnap_lnshare_to_profile_smap" value="1" disabled/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 		<label id="xyz_lnap_lnshare_to_profile_lnap_no" class="xyz_lnap_toggle_on"><input type="radio" name="xyz_lnap_lnshare_to_profile_smap" value="0" checked/> <?php _e('No','linkedin-auto-publish'); ?> </label>
@@ -452,7 +452,7 @@ else
 else {?>
 	<tr valign="top">
 	<td> <?php _e('Share post to profile','linkedin-auto-publish'); ?> </td>
-	<td  class="switch-field">
+	<td  class="xyz_lnap_switch_field">
 		<label id="xyz_lnap_lnshare_to_profile_yes" ><input type="radio" name="xyz_lnap_lnshare_to_profile" value="1" <?php  if(get_option('xyz_lnap_lnshare_to_profile')==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 		<label id="xyz_lnap_lnshare_to_profile_no" ><input type="radio" name="xyz_lnap_lnshare_to_profile" value="0" <?php  if(get_option('xyz_lnap_lnshare_to_profile')==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish'); ?> </label>
 	</td>
@@ -461,7 +461,7 @@ else {?>
 	<tr valign="top" id="shareprivate">
 	<!-- <input type="hidden" name="xyz_lnap_ln_sharingmethod" id="xyz_lnap_ln_sharingmethod" value="0"> -->
 	<td> <?php _e('Share post content with','linkedin-auto-publish'); ?> </td>
-	<td  class="switch-field">
+	<td  class="xyz_lnap_switch_field">
 		<label id="xyz_lnap_ln_shareprivate_yes" ><input type="radio" name="xyz_lnap_ln_shareprivate" value="1" <?php  if(get_option('xyz_lnap_ln_shareprivate')==1) echo 'checked';?>/> <?php _e('Connections','linkedin-auto-publish'); ?> </label>
 		<label id="xyz_lnap_ln_shareprivate_no" ><input type="radio" name="xyz_lnap_ln_shareprivate" value="0" <?php  if(get_option('xyz_lnap_ln_shareprivate')==0) echo 'checked';?>/> <?php _e('Public','linkedin-auto-publish'); ?> </label>
 	</td>
@@ -479,7 +479,7 @@ else {?>
 			//$xyz_lnap_application_lnarray=$ln_acc_tok_arr->access_token;
 			$ln_publish_status=array();
 			$xyz_lnap_ln_company_idArray=explode(',',$xyz_lnap_ln_company_ids);
-			?><div class="xyz_lnap_scroll_checkbox" style="width:220px !important;" >
+			?><div class="xyz_lnap_xyz_lnap_scroll_checkbox" style="width:220px !important;" >
 				<?php if(isset($ln_acc_tok_arr->access_token))
 				{
 				$ln_err_flag=0;
@@ -518,7 +518,7 @@ else {?>
 			?>
 			<tr valign="top" id="share_post_company"><td> <?php _e('Share post to company page','linkedin-auto-publish');?> </td>
 			<td><div>
-				<div class="xyz_lnap_scroll_checkbox" id="xyz_lnap_selected_pages_ln_tr" style="float:left;"><?php
+				<div class="xyz_lnap_xyz_lnap_scroll_checkbox" id="xyz_lnap_selected_pages_ln_tr" style="float:left;"><?php
 				if (!empty($xyz_lnap_ln_company_names)){
 					foreach ($xyz_lnap_ln_company_names as $xyz_ln_company_id => $xyz_ln_company_name)
 					   {?>
@@ -539,7 +539,7 @@ else {?>
 		<tr>
 			<td   id="bottomBorderNone"></td>
 					<td   id="bottomBorderNone"><div style="height: 50px;">
-							<input type="submit" class="submit_lnap_new"
+							<input type="submit" class="xyz_lnap_submit_lnap_new"
 								style=" margin-top: 10px; "
 								name="linkdn" value="<?php _e('Save','linkedin-auto-publish'); ?>" /></div>
 					</td>
@@ -659,7 +659,7 @@ else {?>
 
 					<td  colspan="1" width="50%"> <?php _e('Publish wordpress `pages` to linkedin','linkedin-auto-publish'); ?>
 					</td>
-					<td  class="switch-field">
+					<td  class="xyz_lnap_switch_field">
 						<label id="xyz_lnap_include_pages_yes"><input type="radio" name="xyz_lnap_include_pages" value="1" <?php  if($xyz_lnap_include_pages==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish');?> </label>
 						<label id="xyz_lnap_include_pages_no"><input type="radio" name="xyz_lnap_include_pages" value="0" <?php  if($xyz_lnap_include_pages==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish');?> </label>
 					</td>
@@ -669,7 +669,7 @@ else {?>
 
 					<td  colspan="1"> <?php _e('Publish wordpress `posts` to linkedin','linkedin-auto-publish'); ?>
 					</td>
-					<td  class="switch-field">
+					<td  class="xyz_lnap_switch_field">
 						<label id="xyz_lnap_include_posts_yes"><input type="radio" name="xyz_lnap_include_posts" value="1" <?php  if($xyz_lnap_include_posts==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish');?></label>
 						<label id="xyz_lnap_include_posts_no"><input type="radio" name="xyz_lnap_include_posts" value="0" <?php  if($xyz_lnap_include_posts==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish');?> </label>
 					</td>
@@ -716,14 +716,14 @@ else {?>
 
 					<td  colspan="1"> <?php _e('Select post categories for auto publish','linkedin-auto-publish'); ?>
 					</td>
-					<td class="switch-field">
+					<td class="xyz_lnap_switch_field">
 	                <input type="hidden" value="<?php echo esc_html($xyz_lnap_include_categories);?>" name="xyz_lnap_sel_cat" 
 			id="xyz_lnap_sel_cat"> 
 					<label id="xyz_lnap_include_categories_no">
 					<input type="radio"	name="xyz_lnap_cat_all" id="xyz_lnap_cat_all" value="All" onchange="rd_cat_chn(1,-1)" <?php if($xyz_lnap_include_categories=="All") echo "checked"?>> <?php _e('All','linkedin-auto-publish'); ?> <font style="padding-left: 10px;"></font></label>
 					<label id="xyz_lnap_include_categories_yes">
 					<input type="radio"	name="xyz_lnap_cat_all" id="xyz_lnap_cat_all" value=""	onchange="rd_cat_chn(1,1)" <?php if($xyz_lnap_include_categories!="All") echo "checked"?>> <?php _e('Specific','linkedin-auto-publish'); ?> </label>
-					<br /> <br /> <div class="xyz_lnap_scroll_checkbox"  id="cat_dropdown_span">
+					<br /> <br /> <div class="xyz_lnap_xyz_lnap_scroll_checkbox"  id="cat_dropdown_span">
 					<?php 
 					$args = array(
 							'show_option_all'    => '',
@@ -784,7 +784,7 @@ else {?>
 				<tr valign="top">
 				
 				<td scope="row" colspan="1" width="50%"> <?php _e('Enable SSL peer verification in remote requests','linkedin-auto-publish');?> </td>
-				<td  class="switch-field">
+				<td  class="xyz_lnap_switch_field">
 					<label id="xyz_lnap_peer_verification_yes"><input type="radio" name="xyz_lnap_peer_verification" value="1" <?php  if($xyz_lnap_peer_verification==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 					<label id="xyz_lnap_peer_verification_no"><input type="radio" name="xyz_lnap_peer_verification" value="0" <?php  if($xyz_lnap_peer_verification==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish'); ?> </label>
 				</td>
@@ -825,7 +825,7 @@ else {?>
 
 					<td  colspan="1" width="50%">Enable utf-8 decoding before publishing
 					</td>
-					<td  class="switch-field">
+					<td  class="xyz_lnap_switch_field">
 						<label id="xyz_lnap_utf_decode_enable_yes"><input type="radio" name="xyz_lnap_utf_decode_enable" value="1" <?php // if($xyz_lnap_utf_decode_enable==1) echo 'checked';?>/>Yes</label>
 						<label id="xyz_lnap_utf_decode_enable_no"><input type="radio" name="xyz_lnap_utf_decode_enable" value="0" <?php // if($xyz_lnap_utf_decode_enable==0) echo 'checked';?>/>No</label>
 					</td>
@@ -835,7 +835,7 @@ else {?>
 
 					<td  colspan="1"> <?php _e('Enable credit link to author','linkedin-auto-publish');?>
 					</td>
-					<td  class="switch-field">
+					<td  class="xyz_lnap_switch_field">
 						<label id="xyz_credit_link_yes"><input type="radio" name="xyz_credit_link" value="lnap" <?php  if($xyz_credit_link=='lnap') echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 						<label id="xyz_credit_link_no"><input type="radio" name="xyz_credit_link" value="<?php echo $xyz_credit_link!='lnap'?$xyz_credit_link:0;?>" <?php  if($xyz_credit_link!='lnap') echo 'checked';?>/> <?php _e('No','linkedin-auto-publish'); ?> </label>
 					</td>
@@ -845,7 +845,7 @@ else {?>
 
 					<td  colspan="1"> <?php _e('Enable premium version ads','linkedin-auto-publish'); ?>
 					</td>
-					<td  class="switch-field">
+					<td  class="xyz_lnap_switch_field">
 						<label id="xyz_lnap_premium_version_ads_yes"><input type="radio" name="xyz_lnap_premium_version_ads" value="1" <?php  if($xyz_lnap_premium_version_ads==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 						<label id="xyz_lnap_premium_version_ads_no"><input type="radio" name="xyz_lnap_premium_version_ads" value="0" <?php  if($xyz_lnap_premium_version_ads==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish'); ?> </label>
 					</td>
@@ -855,7 +855,7 @@ else {?>
 					</td>
 					
 <td id="bottomBorderNone"><div style="height: 50px;">
-<input type="submit" class="submit_lnap_new" style="margin-top: 10px;"	value="<?php _e('Update Settings','linkedin-auto-publish'); ?>" name="bsettngs" /></div></td>
+<input type="submit" class="xyz_lnap_submit_lnap_new" style="margin-top: 10px;"	value="<?php _e('Update Settings','linkedin-auto-publish'); ?>" name="bsettngs" /></div></td>
 				</tr>
 			</table>
 		</form></div>
@@ -1038,13 +1038,13 @@ function xyz_lnap_open_tab(evt, xyz_lnap_form_div_id) {
 function lnap_popup_ln_auth(domain_name,xyz_lnap_smapsoln_userid,xyzscripts_user_id,xyzscripts_hash_val,auth_secret_key,xyz_request_hash)
 {
 	if(xyzscripts_user_id==''|| xyzscripts_hash_val==''){
-		if(jQuery('#system_notice_area').length==0)
-			jQuery('body').append('<div class="system_notice_area_style0" id="system_notice_area"></div>');
-			jQuery("#system_notice_area").html(xyz_script_lnap_var.html3);
-	    	jQuery("#system_notice_area").append('<span id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish'); ?> </span>');
-			jQuery("#system_notice_area").show();
-			jQuery('#system_notice_area_dismiss').click(function() {
-				jQuery('#system_notice_area').animate({
+		if(jQuery('#xyz_lnap_system_notice_area').length==0)
+			jQuery('body').append('<div class="xyz_lnap_system_notice_area_style0" id="xyz_lnap_system_notice_area"></div>');
+			jQuery("#xyz_lnap_system_notice_area").html(xyz_script_lnap_var.html3);
+	    	jQuery("#xyz_lnap_system_notice_area").append('<span id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish'); ?> </span>');
+			jQuery("#xyz_lnap_system_notice_area").show();
+			jQuery('#xyz_lnap_system_notice_area_dismiss').click(function() {
+				jQuery('#xyz_lnap_system_notice_area').animate({
 					opacity : 'hide',
 					height : 'hide'
 				}, 500);
@@ -1072,12 +1072,12 @@ function xyz_lnap_ProcessChildMessage_2(message) {
 	if(messageType==="error")
 	{
 		message=message.substring(6);
-		if(jQuery('#system_notice_area').length==0)
-		jQuery('body').append('<div class="system_notice_area_style0" id="system_notice_area"></div>');
-		jQuery("#system_notice_area").html(message+' <span id="system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish'); ?> </span>');
-		jQuery("#system_notice_area").show();
-		jQuery('#system_notice_area_dismiss').click(function() {
-			jQuery('#system_notice_area').animate({
+		if(jQuery('#xyz_lnap_system_notice_area').length==0)
+		jQuery('body').append('<div class="xyz_lnap_system_notice_area_style0" id="xyz_lnap_system_notice_area"></div>');
+		jQuery("#xyz_lnap_system_notice_area").html(message+' <span id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish'); ?> </span>');
+		jQuery("#xyz_lnap_system_notice_area").show();
+		jQuery('#xyz_lnap_system_notice_area_dismiss').click(function() {
+			jQuery('#xyz_lnap_system_notice_area').animate({
 				opacity : 'hide',
 				height : 'hide'
 			}, 500);

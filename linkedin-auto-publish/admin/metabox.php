@@ -316,7 +316,7 @@ function inArray(needle, haystack) {
 	<tr valign="top">
 		<td class="xyz_lnap_pleft15" width="60%"> <?php _e('Enable auto publish posts to my linkedin account','linkedin-auto-publish'); ?> 
 		</td>
-	 <td  class="switch-field">
+	 <td  class="xyz_lnap_switch_field">
 		<label id="xyz_lnap_lnpost_permission_yes"><input type="radio" name="xyz_lnap_lnpost_permission" id="xyz_lnap_lnpost_permission_1" value="1" <?php if($post_permission==1) echo 'checked';?>/> <?php _e('Yes','linkedin-auto-publish'); ?> </label>
 		<label id="xyz_lnap_lnpost_permission_no"><input type="radio" name="xyz_lnap_lnpost_permission" id="xyz_lnap_lnpost_permission_0" value="0"  <?php if($post_permission==0) echo 'checked';?>/> <?php _e('No','linkedin-auto-publish'); ?> </label>
 	 </td>
@@ -335,7 +335,7 @@ function inArray(needle, haystack) {
 	<tr valign="top" id="lnmf_lnap">
 		<td class="xyz_lnap_pleft15"> <?php _e('Message format for posting','linkedin-auto-publish'); ?> <img src="<?php echo $heimg?>" 
 						onmouseover="detdisplay_lnap('xyz_lnap_informationdiv')" onmouseout="dethide_lnap('xyz_lnap_informationdiv')" style="width:13px;height:auto;">
-						<div id="xyz_lnap_informationdiv" class="lnap_informationdiv"
+						<div id="xyz_lnap_informationdiv" class="xyz_lnap_informationdiv"
 							style="display: none; font-weight: normal;">
 							{POST_TITLE} - <?php _e('Insert the title of your post.','linkedin-auto-publish'); ?><br/>
 							{PERMALINK} - <?php _e('Insert the URL where your post is displayed.','linkedin-auto-publish'); ?><br/>

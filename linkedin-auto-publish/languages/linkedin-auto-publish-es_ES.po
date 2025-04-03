@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: multilang\n"
-"POT-Creation-Date: 2024-10-22 17:14+0530\n"
-"PO-Revision-Date: 2024-10-22 17:14+0530\n"
+"POT-Creation-Date: 2025-03-24 16:50+0530\n"
+"PO-Revision-Date: 2025-03-24 16:50+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -87,7 +87,7 @@ msgstr "Facebook"
 msgid "Twitter"
 msgstr "Gorjeo"
 
-#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:290
+#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:309
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
@@ -103,95 +103,111 @@ msgstr "Tumblr"
 msgid "Pinterest"
 msgstr "Pinterest"
 
-#: admin/about.php:94
+#: admin/about.php:92
+msgid "Telegram"
+msgstr "Telegram"
+
+#: admin/about.php:101
+msgid "Threads"
+msgstr "Threads"
+
+#: admin/about.php:113
 msgid "Posting Options"
 msgstr "Opciones de publicación"
 
-#: admin/about.php:95
+#: admin/about.php:114
 msgid "Publish to facebook pages"
 msgstr "Publicar en paginas de facebook"
 
-#: admin/about.php:105
+#: admin/about.php:123
 msgid "Publish to twitter profile"
 msgstr "Publicar en perfil de Gorjeo"
 
-#: admin/about.php:115
+#: admin/about.php:133
 msgid "Publish to linkedin profile"
 msgstr "Publicar en el perfil de Linkedin"
 
-#: admin/about.php:126
+#: admin/about.php:144
 msgid "Publish to linkedin company pages"
 msgstr "Publicar en páginas de empresa de Linkedin"
 
-#: admin/about.php:135
+#: admin/about.php:153
 msgid "Publish to instagram Business accounts"
 msgstr "Publicar en cuentas comerciales de instagram"
 
-#: admin/about.php:144
+#: admin/about.php:162
 msgid "Publish to tumblr profile"
 msgstr "Publicar en perfil de tumblr"
 
-#: admin/about.php:154
+#: admin/about.php:172
+msgid "Publish to threads profile"
+msgstr "Publicar en perfil de thread"
+
+#: admin/about.php:181
+msgid "Publish to telegram channels and groups"
+msgstr "Publicar en cuentas comerciales de Telegram"
+
+#: admin/about.php:191
 msgid "Publish to pinterest boards"
 msgstr "Publicar en tableros de pinterest"
 
-#: admin/about.php:164
+#: admin/about.php:201
 msgid "Option to republish existing posts"
 msgstr "Opción para volver a publicar publicaciones existentes"
 
-#: admin/about.php:174
+#: admin/about.php:211
 msgid "Publish to multiple social media accounts"
 msgstr "Publicar en varias cuentas de redes sociales"
 
-#: admin/about.php:184
+#: admin/about.php:221
 msgid ""
 "Seperate message formats for publishing to multiple social media accounts"
 msgstr ""
 "Formato de mensaje separado para publicar en múltiples cuentas de redes "
 "sociales"
 
-#: admin/about.php:194
+#: admin/about.php:231
 msgid "Save auto publish settings of individual posts"
 msgstr ""
 "Guardar la configuración de publicación automática de publicaciones "
 "individuales"
 
-#: admin/about.php:204
+#: admin/about.php:241
 msgid ""
-"Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr and "
-"Pinterest"
+"Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr, "
+"Threads, Pinterest and Telegram"
 msgstr ""
 "Compatibilidad con etiquetas hash para Facebook, Gorjeo, Instagram, "
-"Linkedin, Pinterest y Tumblr"
+"Linkedin, Threads, Pinterest y Tumblr"
 
-#: admin/about.php:213
+#: admin/about.php:250
 msgid "Option to use post tags as hash tags"
 msgstr "Opción para usar la etiqueta de publicación como hashtags"
 
-#: admin/about.php:222
+#: admin/about.php:259
 msgid "Option to use post categories as hash tags"
 msgstr "Opción para usar la etiqueta de publicación como hashtags"
 
-#: admin/about.php:232
+#: admin/about.php:269
 msgid "Enable/Disable SSL peer verification"
 msgstr "Habilitar/deshabilitar la verificación de pares SSL"
 
-#: admin/about.php:244
+#: admin/about.php:281
 msgid "Image Options"
 msgstr "Opciones de imagen"
 
-#: admin/about.php:245
+#: admin/about.php:282
 msgid "Publish images along with post content"
 msgstr "Publicar imágenes junto con el contenido de la publicación"
 
-#: admin/about.php:256
+#: admin/about.php:293
 msgid ""
 "Separate default image url for publishing to multiple social media accounts"
 msgstr ""
 "URL de imagen predeterminada separada para publicar en varias cuentas de "
 "redes sociales"
 
-#: admin/about.php:266
+#: admin/about.php:303
 msgid ""
 "Option to specify preference from featured image, post content, post meta "
 "and open graph tags"
@@ -199,44 +215,44 @@ msgstr ""
 "Opción para especificar la preferencia de la imagen destacada, publicar "
 "contenido, publicar meta y abrir etiquetas gráficas"
 
-#: admin/about.php:275
+#: admin/about.php:312
 msgid ""
-"Publish multiple images to facebook, tumblr, linkedin and twitter along with "
-"post content"
+"Publish multiple images to facebook, tumblr, linkedin, twitter, threads and "
+"telegram along with post content"
 msgstr ""
-"Publique varias imágenes en facebook, tumblr, linkedin y Gorjeo junto con el "
-"contenido de la publicación"
+"Publique varias imágenes en Facebook, Tumblr, LinkedIn, Twitter, Threads y "
+"Telegram junto con el contenido de la publicación"
 
-#: admin/about.php:284
+#: admin/about.php:321
 msgid "Option to specify multiphoto preference from post content and post meta"
 msgstr ""
 "Opción para especificar la preferencia de varias fotos del contenido de la "
 "publicación y el meta de la publicación"
 
-#: admin/about.php:296
+#: admin/about.php:333
 msgid "Video/Audio Options"
 msgstr "Opciones de vídeo/audio"
 
-#: admin/about.php:297
+#: admin/about.php:334
 msgid ""
-"Publish video to facebook, tumblr, Linkedin, Instagram and twitter along "
-"with post content"
+"Publish video to facebook, tumblr,Linkedin, Instagram, twitter, threads and "
+"telegram along with post content"
 msgstr ""
-"Publique videos en Facebook, Tumblr, LinkedIn, Instagram y Gorjeo junto con "
-"el contenido de la publicación"
+"Publique videos en Facebook, Tumblr, LinkedIn, threads, Instagram y Gorjeo "
+"junto con el contenido de la publicación"
 
-#: admin/about.php:307
+#: admin/about.php:344
 msgid ""
 "Option to specify preference from post content, post meta and open graph tags"
 msgstr ""
 "Opción para especificar la preferencia del contenido de la publicación, el "
 "meta de la publicación y las etiquetas de gráficos abiertos"
 
-#: admin/about.php:317
+#: admin/about.php:354
 msgid "Publish audio to tumblr along with post content"
 msgstr "Publicar audio en tumblr junto con el contenido de la publicación"
 
-#: admin/about.php:327
+#: admin/about.php:364
 msgid ""
 "Option to specify audio preference from  post content, post meta and open "
 "graph tags"
@@ -244,125 +260,125 @@ msgstr ""
 "Opción para especificar la preferencia de audio desde el contenido de la "
 "publicación, meta meta y etiquetas de gráficos abiertos"
 
-#: admin/about.php:339
+#: admin/about.php:376
 msgid "Filter Options"
 msgstr "Opciones de filtro"
 
-#: admin/about.php:340
+#: admin/about.php:377
 msgid "Filter posts to publish based on categories"
 msgstr "Filtrar publicaciones para publicar según categorías"
 
-#: admin/about.php:350
+#: admin/about.php:387
 msgid "Filter posts to publish based on custom post types"
 msgstr ""
 "Filtrar publicaciones para publicar en función de los tipos de publicaciones "
 "personalizadas"
 
-#: admin/about.php:359
+#: admin/about.php:396
 msgid "Filter posts to publish based on sticky posts"
 msgstr "Filtrar publicaciones para publicar según publicaciones fijas"
 
-#: admin/about.php:368
+#: admin/about.php:405
 msgid "Configuration to enable/disable page publishing"
 msgstr "Configuración para habilitar/deshabilitar la publicación de páginas"
 
-#: admin/about.php:378
+#: admin/about.php:415
 msgid "Category filter for individual accounts"
 msgstr "Filtro de categoría para cuentas individuales"
 
-#: admin/about.php:388
+#: admin/about.php:425
 msgid "Custom post type filter for individual accounts"
 msgstr "Filtro de tipo de publicación personalizado para cuentas individuales"
 
-#: admin/about.php:398
+#: admin/about.php:435
 msgid "Enable/Disable page publishing for individual accounts"
 msgstr ""
 "Habilitar/deshabilitar la publicación de páginas para cuentas individuales"
 
-#: admin/about.php:407
+#: admin/about.php:444
 msgid "Override auto publish scheduling for individual accounts"
 msgstr ""
 "Anular la programación de publicación automática para cuentas individuales"
 
-#: admin/about.php:416
+#: admin/about.php:453
 msgid "Override auto publish based on sticky posts for individual accounts"
 msgstr ""
 "Anular la publicación automática basada en publicaciones fijas para cuentas "
 "individuales"
 
-#: admin/about.php:427
+#: admin/about.php:464
 msgid "Scheduling"
 msgstr "Planificación"
 
-#: admin/about.php:428
+#: admin/about.php:465
 msgid "Instantaneous post publishing"
 msgstr "Publicación instantánea de publicaciones"
 
-#: admin/about.php:438
+#: admin/about.php:475
 msgid "Scheduled post publishing using cron"
 msgstr "Publicación de publicaciones programadas usando cron"
 
-#: admin/about.php:447
+#: admin/about.php:484
 msgid "Status summary of auto publish tasks by mail"
 msgstr "Resumen de estado de las tareas de publicación automática por correo"
 
-#: admin/about.php:457
+#: admin/about.php:494
 msgid "Configurable auto publishing time interval"
 msgstr "Intervalo de tiempo de publicación automática configurable"
 
-#: admin/about.php:471
+#: admin/about.php:508
 msgid "Publishing History"
 msgstr "Historial de publicaciones"
 
-#: admin/about.php:472
+#: admin/about.php:509
 msgid "View auto publish history"
 msgstr "Ver historial de publicación automática"
 
-#: admin/about.php:481
+#: admin/about.php:518
 msgid "View auto publish error logs"
 msgstr "Ver registros de errores de publicación automática"
 
-#: admin/about.php:491
+#: admin/about.php:528
 msgid "Option to republish post"
 msgstr "Opción para volver a publicar la publicación"
 
-#: admin/about.php:501
+#: admin/about.php:538
 msgid "Option to reschedule publishing"
 msgstr "Opción de reprogramar la publicación"
 
-#: admin/about.php:512
+#: admin/about.php:549
 msgid "Installation and Support"
 msgstr "Instalación y Soporte"
 
-#: admin/about.php:513
+#: admin/about.php:550
 msgid "Free Installation"
 msgstr "Instalación gratuita"
 
-#: admin/about.php:522
+#: admin/about.php:559
 msgid "Privilege customer support"
 msgstr "Atención al cliente privilegiada"
 
-#: admin/about.php:532
+#: admin/about.php:569
 msgid "Addon Features"
 msgstr "Características adicionales"
 
-#: admin/about.php:533
+#: admin/about.php:570
 msgid "Advanced Autopublish Scheduler"
 msgstr "Programador avanzado de publicación automática"
 
-#: admin/about.php:542
+#: admin/about.php:579
 msgid "URL-Shortener"
 msgstr "Acortador de URL"
 
-#: admin/about.php:551
+#: admin/about.php:588
 msgid "Privilege Management"
 msgstr "Gestión de privilegios"
 
-#: admin/about.php:560
+#: admin/about.php:597
 msgid "Other"
 msgstr "Otra"
 
-#: admin/about.php:562
+#: admin/about.php:599
 #, php-format
 msgid ""
 "%s API package for 1 year, worth 10 USD(1 linkedin account @ 25 api per day)"
@@ -370,39 +386,39 @@ msgstr ""
 "%s paquete API por 1 año, valorado en 10 USD (1 cuenta de Linkedin @ 25 API "
 "por día)"
 
-#: admin/about.php:566
+#: admin/about.php:602
 msgid "1 month free subscription"
 msgstr "1 mes de suscripción gratis"
 
-#: admin/about.php:568
-msgid "3 months free subscription"
-msgstr "3 meses de suscripción gratis"
+#: admin/about.php:604
+msgid "1 year free subscription"
+msgstr "1 año de suscripción gratuita"
 
-#: admin/about.php:574
+#: admin/about.php:608
 msgid "Price"
 msgstr "Precio"
 
-#: admin/about.php:575
+#: admin/about.php:609
 msgid "FREE"
 msgstr "GRATIS"
 
-#: admin/about.php:576
-msgid "Starts from 39 USD"
-msgstr "Desde 39 USD"
+#: admin/about.php:610
+msgid "Starts from 29 USD"
+msgstr "Desde 29 USD"
 
-#: admin/about.php:577
-msgid "Starts from 69 USD"
-msgstr "Desde 69 USD"
+#: admin/about.php:611
+msgid "Starts from 59 USD"
+msgstr "Desde 59 USD"
 
-#: admin/about.php:580
+#: admin/about.php:614
 msgid "Purchase"
 msgstr "Compra"
 
-#: admin/about.php:582
+#: admin/about.php:616 admin/footer.php:24
 msgid "Buy Now"
 msgstr "Compra ahora"
 
-#: admin/about.php:588
+#: admin/about.php:622
 msgid "Pinterest is added on experimental basis."
 msgstr "Pinterest se agrega de forma experimental."
 
@@ -430,7 +446,7 @@ msgstr "Habilitar vínculo de retroceso"
 msgid "Share on"
 msgstr "Compartir en"
 
-#: admin/admin-notices.php:50 admin/footer.php:42 admin/header.php:100
+#: admin/admin-notices.php:50 admin/header.php:100
 msgid "Donate"
 msgstr "Donar"
 
@@ -438,60 +454,68 @@ msgstr "Donar"
 msgid "Don't Show This Again"
 msgstr "No mostrar esto de nuevo"
 
-#: admin/footer.php:10
-#, php-format
-msgid "Fully Featured %s Plugin"
-msgstr "Complemento %s con todas las funciones"
-
 #: admin/footer.php:11
-msgid "Just 39 USD"
-msgstr "Solo 39 dolares"
+#, php-format
+msgid ""
+"%sUpgrade to the Fully Featured XYZ WP Social Media Auto Publish Premium "
+"Plugin for %sJust 29 USD%s"
+msgstr ""
+"%sActualice al complemento premium de publicación automática de redes "
+"sociales XYZ WP con todas las funciones por %sSolo 29 USD%s"
 
-#: admin/footer.php:21
+#: admin/footer.php:17
+msgid ""
+"Unlock advanced scheduling, multi-account publishing, hashtag automation, "
+"and seamless social media integration!"
+msgstr ""
+"¡Desbloquee programación avanzada, publicación multicuenta, automatización "
+"de hashtags e integración perfecta de redes sociales!"
+
+#: admin/footer.php:29
 msgid "Compare Features"
 msgstr "Comparar características"
 
-#: admin/footer.php:33
+#: admin/footer.php:41
 msgid "Follow Us"
 msgstr "Síganos"
 
-#: admin/footer.php:41
+#: admin/footer.php:49
 msgid "Support"
 msgstr "Apoye"
 
-#: admin/footer.php:43
+#: admin/footer.php:51
 msgid "Contact Us"
 msgstr "Contacta con nosotras"
 
-#: admin/footer.php:44
+#: admin/footer.php:52
 msgid "Please Rate Us"
 msgstr "Por favor califíquenos"
 
-#: admin/footer.php:50
+#: admin/footer.php:58
 msgid "Create a ticket at Wordpress forum"
 msgstr "Crear un ticket en el foro de Wordpress"
 
-#: admin/footer.php:53
+#: admin/footer.php:61
 msgid "Stay tuned for our updates"
 msgstr "Estén atentos a nuestras actualizaciones"
 
-#: admin/footer.php:118
+#: admin/footer.php:126
 msgid "Name"
 msgstr "Nombre"
 
-#: admin/footer.php:134
+#: admin/footer.php:142
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: admin/footer.php:136
+#: admin/footer.php:144
 msgid "Subscribe"
 msgstr "Suscribirse"
 
-#: admin/footer.php:153
+#: admin/footer.php:159
 msgid "Our Plugins"
 msgstr "Nuestras Complementos"
 
-#: admin/footer.php:174
+#: admin/footer.php:180
 msgid "Powered by"
 msgstr "Energizado por"
 
@@ -716,94 +740,94 @@ msgstr "Registros"
 msgid "Suggest a Feature"
 msgstr "Sugerir una característica"
 
-#: admin/metabox.php:298 admin/settings.php:313
+#: admin/metabox.php:317 admin/settings.php:313
 msgid "Enable auto publish posts to my linkedin account"
 msgstr ""
 "Habilitar publicación automática de publicaciones en mi cuenta de Linkedin"
 
-#: admin/metabox.php:301 admin/settings.php:315 admin/settings.php:397
+#: admin/metabox.php:320 admin/settings.php:315 admin/settings.php:397
 #: admin/settings.php:437 admin/settings.php:442 admin/settings.php:456
 #: admin/settings.php:663 admin/settings.php:673 admin/settings.php:788
 #: admin/settings.php:839 admin/settings.php:849
 msgid "Yes"
 msgstr "Sí"
 
-#: admin/metabox.php:302 admin/settings.php:316 admin/settings.php:398
+#: admin/metabox.php:321 admin/settings.php:316 admin/settings.php:398
 #: admin/settings.php:438 admin/settings.php:443 admin/settings.php:457
 #: admin/settings.php:664 admin/settings.php:674 admin/settings.php:789
 #: admin/settings.php:840 admin/settings.php:850
 msgid "No"
 msgstr "No"
 
-#: admin/metabox.php:308 admin/settings.php:463
+#: admin/metabox.php:327 admin/settings.php:463
 msgid "Share post content with"
 msgstr "Comparte el contenido de la publicación con"
 
-#: admin/metabox.php:311 admin/settings.php:466
+#: admin/metabox.php:330 admin/settings.php:466
 msgid "Public"
 msgstr "Pública"
 
-#: admin/metabox.php:312
+#: admin/metabox.php:331
 msgid "Connections only"
 msgstr "Solo conexiones"
 
-#: admin/metabox.php:317 admin/settings.php:402
+#: admin/metabox.php:336 admin/settings.php:402
 msgid "Message format for posting"
 msgstr "Formato de mensaje para publicar"
 
-#: admin/metabox.php:321 admin/settings.php:406
+#: admin/metabox.php:340 admin/settings.php:406
 msgid "Insert the title of your post."
 msgstr "Inserta el título de tu publicación."
 
-#: admin/metabox.php:322 admin/settings.php:407
+#: admin/metabox.php:341 admin/settings.php:407
 msgid "Insert the URL where your post is displayed."
 msgstr "Inserta la URL donde se muestra tu publicación."
 
-#: admin/metabox.php:323 admin/settings.php:408
+#: admin/metabox.php:342 admin/settings.php:408
 msgid "Insert the excerpt of your post."
 msgstr "Inserta el extracto de tu publicación."
 
-#: admin/metabox.php:324 admin/settings.php:409
+#: admin/metabox.php:343 admin/settings.php:409
 msgid "Insert the description of your post."
 msgstr "Inserta la descripción de tu publicación."
 
-#: admin/metabox.php:325 admin/settings.php:410
+#: admin/metabox.php:344 admin/settings.php:410
 msgid "Insert the name of your blog."
 msgstr "Inserta el nombre de tu blog."
 
-#: admin/metabox.php:326 admin/settings.php:411
+#: admin/metabox.php:345 admin/settings.php:411
 msgid "Insert the nicename of the author."
 msgstr "Inserte el bonito nombre del autor."
 
-#: admin/metabox.php:327 admin/settings.php:412
+#: admin/metabox.php:346 admin/settings.php:412
 msgid "Insert the ID of your post."
 msgstr "Inserta el ID de tu publicación."
 
-#: admin/metabox.php:328 admin/settings.php:413
+#: admin/metabox.php:347 admin/settings.php:413
 msgid "Insert the publish date of your post."
 msgstr "Inserta la fecha de publicación de tu publicación."
 
-#: admin/metabox.php:329 admin/settings.php:414
+#: admin/metabox.php:348 admin/settings.php:414
 msgid "Insert the display name of the author."
 msgstr "Insertar el nombre para mostrar de la autora."
 
-#: admin/metabox.php:334 admin/settings.php:418
+#: admin/metabox.php:353 admin/settings.php:418
 msgid "Select"
 msgstr "Seleccione"
 
-#: admin/metabox.php:351 admin/settings.php:376
+#: admin/metabox.php:370 admin/settings.php:376
 msgid "Posting method"
 msgstr "Método de publicación"
 
-#: admin/metabox.php:355 admin/settings.php:382
+#: admin/metabox.php:374 admin/settings.php:382
 msgid "Simple text message"
 msgstr "Mensaje de texto sencillo"
 
-#: admin/metabox.php:357 admin/settings.php:384
+#: admin/metabox.php:376 admin/settings.php:384
 msgid "Attach your blog post"
 msgstr "Adjunte su publicación de blog"
 
-#: admin/metabox.php:359 admin/settings.php:386
+#: admin/metabox.php:378 admin/settings.php:386
 msgid "Text message with image"
 msgstr "Mensaje de texto con imagen"
 
@@ -930,7 +954,7 @@ msgstr "¿Cómo puedo crear una aplicación de Linkedin"
 #: admin/settings.php:329
 #, php-format
 msgid "%s App ( ready to publish )"
-msgstr "% s App (lista para publicar)"
+msgstr "%s App (bereit zur Veröffentlichung)"
 
 #: admin/settings.php:330
 msgid "Starts from 10 USD per year"
@@ -1078,10 +1102,10 @@ msgid "NIL"
 msgstr "Nada"
 
 #: admin/settings.php:766
-msgid "Auto publish on editing posts/pages/custom post types"
+msgid "Auto publish on creating posts/pages/custom post types"
 msgstr ""
-"Publicación automática al editar publicaciones/páginas/tipos de "
-"publicaciones personalizadas"
+"Publicación automática al crear publicaciones/páginas/tipos de publicaciones "
+"personalizadas"
 
 #: admin/settings.php:769 admin/settings.php:778
 msgid "Enabled"
@@ -1096,10 +1120,10 @@ msgid "Use metabox settings"
 msgstr "Configuración general"
 
 #: admin/settings.php:775
-msgid "Auto publish on creating posts/pages/custom post types"
+msgid "Auto publish on editing posts/pages/custom post types"
 msgstr ""
-"Publicación automática al crear publicaciones/páginas/tipos de publicaciones "
-"personalizadas"
+"Publicación automática al editar publicaciones/páginas/tipos de "
+"publicaciones personalizadas"
 
 #: admin/settings.php:786
 msgid "Enable SSL peer verification in remote requests"
@@ -1159,3 +1183,13 @@ msgid "Hi there!  Im just a plugin, not much I can do when called directly."
 msgstr ""
 "Hola! Soy solo un complemento, no puedo hacer mucho cuando me llaman "
 "directamente."
+
+#~ msgid "3 months free subscription"
+#~ msgstr "3 meses de suscripción gratis"
+
+#, php-format
+#~ msgid "Fully Featured %s Plugin"
+#~ msgstr "Complemento %s con todas las funciones"
+
+#~ msgid "Just 29 USD"
+#~ msgstr "Solo 39 dolares"

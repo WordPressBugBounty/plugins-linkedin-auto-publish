@@ -20,7 +20,7 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	
 </p>
  </div>
- <table class="xyz-premium-comparison" cellspacing=0 style="width: 99%;">
+ <table class="xyz_lnap_premium_comparison" cellspacing=0 style="width: 99%;">
 	<tr style="background-color: #EDEDED">
 		<td><h2> <?php _e('Feature group','linkedin-auto-publish'); ?> </h2></td>
 		<td><h2> <?php _e('Feature','linkedin-auto-publish'); ?> </h2></td>
@@ -33,7 +33,7 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	</tr>
 	<!-- Supported Media  -->
 	<tr>
-		<td rowspan="6"><h4> <?php _e('Supported Media','linkedin-auto-publish'); ?> </h4></td>
+		<td rowspan="8"><h4> <?php _e('Supported Media','linkedin-auto-publish'); ?> </h4></td>
 		<td> <?php _e('Facebook','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
@@ -88,10 +88,29 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 	</tr>
+	<tr>
+		<td> <?php _e('Telegram','linkedin-auto-publish'); ?> </td>
+		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+	</tr>
+	<tr>
+		<td> <?php _e('Threads','linkedin-auto-publish'); ?> </td>
+		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+	</tr>
 
 		<!-- Posting Options  -->
+
 	<tr>
-		<td rowspan="15"><h4> <?php _e('Posting Options','linkedin-auto-publish'); ?> </h4></td>
+		<td rowspan="17"><h4> <?php _e('Posting Options','linkedin-auto-publish'); ?> </h4></td>
 		<td> <?php _e('Publish to facebook pages','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
@@ -123,7 +142,7 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	
 	<tr>
 		<td> <?php _e('Publish to linkedin company pages','linkedin-auto-publish'); ?> </td>
-		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
@@ -141,6 +160,25 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	</tr>
 		<tr>
 		<td> <?php _e('Publish to tumblr profile','linkedin-auto-publish'); ?> </td>
+		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+	</tr>
+
+	<tr>
+		<td> <?php _e('Publish to threads profile','linkedin-auto-publish'); ?> </td>
+		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		</td>
+	</tr>
+	<tr>
+		<td> <?php _e('Publish to telegram channels and groups','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
@@ -200,7 +238,7 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	</tr>
 	
 	<tr>
-		<td> <?php _e('Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr and Pinterest','linkedin-auto-publish'); ?> </td>
+		<td> <?php _e('Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr, Threads, Pinterest and Telegram','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
@@ -271,7 +309,7 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 		</td>
 	</tr>
 		<tr>
-		<td> <?php _e('Publish multiple images to facebook, tumblr, linkedin and twitter along with post content','linkedin-auto-publish'); ?> </td>
+		<td> <?php _e('Publish multiple images to facebook, tumblr, linkedin, twitter, threads and telegram along with post content','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
@@ -293,7 +331,7 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	
 	<tr>
 	<td rowspan="4"><h4> <?php _e('Video/Audio Options','linkedin-auto-publish'); ?> </h4></td>
-		<td> <?php _e('Publish video to facebook, tumblr, Linkedin, Instagram and twitter along with post content','linkedin-auto-publish'); ?> </td>
+		<td> <?php _e('Publish video to facebook, tumblr,Linkedin, Instagram, twitter, threads and telegram along with post content','linkedin-auto-publish'); ?> </td>
 		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
@@ -560,25 +598,22 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 		<td><?php $lnap_smapsolution="SMAPSOLUTIONS"; 
 		$lnap_package_msg=sprintf(__('%s API package for 1 year, worth 10 USD(1 linkedin account @ 25 api per day)','linkedin-auto-publish'),$lnap_smapsolution);
 		echo $lnap_package_msg; ?></td>
-
 		
 		<td> <?php _e('1 month free subscription','linkedin-auto-publish'); ?>
 		</td>
-		<td> <?php _e('3 months free subscription','linkedin-auto-publish'); ?>
-		</td>
-		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
+		<td  colspan='2'> <?php _e('1 year free subscription','linkedin-auto-publish'); ?>
 		</td>
 	</tr>
 	<tr>
 		<td> <?php _e('Price','linkedin-auto-publish'); ?> </td>
 		<td> <?php _e('FREE','linkedin-auto-publish'); ?> </td>
-		<td> <?php _e('Starts from 39 USD','linkedin-auto-publish'); ?> </td>
-		<td> <?php _e('Starts from 69 USD','linkedin-auto-publish'); ?> </td>
+		<td> <?php _e('Starts from 29 USD','linkedin-auto-publish'); ?> </td>
+		<td> <?php _e('Starts from 59 USD','linkedin-auto-publish'); ?> </td>
 	</tr>
 	<tr>
 		<td> <?php _e('Purchase','linkedin-auto-publish'); ?> </td>
 		<td></td>
-		<td style="padding: 2px" colspan='2' ><a target="_blank"href="https://xyzscripts.com/wordpress-plugins/social-media-auto-publish/purchase"  class="xyz-lnap-buy-button"> <?php _e('Buy Now','linkedin-auto-publish'); ?> </a>
+		<td style="padding: 2px" colspan='2' ><a target="_blank"href="https://xyzscripts.com/wordpress-plugins/social-media-auto-publish/purchase"  class="xyz_lnap_buy_button"> <?php _e('Buy Now','linkedin-auto-publish'); ?> </a>
 		</td>
 	</tr>
 </table>

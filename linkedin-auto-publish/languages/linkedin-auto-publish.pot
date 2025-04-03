@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: multilang\n"
-"POT-Creation-Date: 2023-10-06 15:26+0530\n"
+"POT-Creation-Date: 2025-03-24 16:38+0530\n"
 "PO-Revision-Date: 2022-02-22 17:45+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -82,7 +82,7 @@ msgstr ""
 msgid "Twitter"
 msgstr ""
 
-#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:299
+#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:309
 msgid "LinkedIn"
 msgstr ""
 
@@ -98,278 +98,294 @@ msgstr ""
 msgid "Pinterest"
 msgstr ""
 
-#: admin/about.php:94
-msgid "Posting Options"
+#: admin/about.php:92
+msgid "Telegram"
 msgstr ""
 
-#: admin/about.php:95
-msgid "Publish to facebook pages"
-msgstr ""
-
-#: admin/about.php:104
-msgid "Publish to facebook groups"
+#: admin/about.php:101
+msgid "Threads"
 msgstr ""
 
 #: admin/about.php:113
-msgid "Publish to twitter profile"
+msgid "Posting Options"
+msgstr ""
+
+#: admin/about.php:114
+msgid "Publish to facebook pages"
 msgstr ""
 
 #: admin/about.php:123
+msgid "Publish to twitter profile"
+msgstr ""
+
+#: admin/about.php:133
 msgid "Publish to linkedin profile"
 msgstr ""
 
-#: admin/about.php:134
+#: admin/about.php:144
 msgid "Publish to linkedin company pages"
 msgstr ""
 
-#: admin/about.php:143
+#: admin/about.php:153
 msgid "Publish to instagram Business accounts"
 msgstr ""
 
-#: admin/about.php:152
+#: admin/about.php:162
 msgid "Publish to tumblr profile"
 msgstr ""
 
-#: admin/about.php:162
+#: admin/about.php:172
+msgid "Publish to threads profile"
+msgstr ""
+
+#: admin/about.php:181
+msgid "Publish to telegram channels and groups"
+msgstr ""
+
+#: admin/about.php:191
 msgid "Publish to pinterest boards"
 msgstr ""
 
-#: admin/about.php:172
+#: admin/about.php:201
 msgid "Option to republish existing posts"
 msgstr ""
 
-#: admin/about.php:182
+#: admin/about.php:211
 msgid "Publish to multiple social media accounts"
 msgstr ""
 
-#: admin/about.php:192
+#: admin/about.php:221
 msgid ""
 "Seperate message formats for publishing to multiple social media accounts"
 msgstr ""
 
-#: admin/about.php:202
+#: admin/about.php:231
 msgid "Save auto publish settings of individual posts"
 msgstr ""
 
-#: admin/about.php:212
+#: admin/about.php:241
 msgid ""
-"Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr and "
-"Pinterest"
+"Hash Tags support for Facebook, Twitter, Linkedin, Instagram, Tumblr, "
+"Threads, Pinterest and Telegram"
 msgstr ""
 
-#: admin/about.php:221
+#: admin/about.php:250
 msgid "Option to use post tags as hash tags"
 msgstr ""
 
-#: admin/about.php:231
+#: admin/about.php:259
+msgid "Option to use post categories as hash tags"
+msgstr ""
+
+#: admin/about.php:269
 msgid "Enable/Disable SSL peer verification"
 msgstr ""
 
-#: admin/about.php:243
+#: admin/about.php:281
 msgid "Image Options"
 msgstr ""
 
-#: admin/about.php:244
+#: admin/about.php:282
 msgid "Publish images along with post content"
 msgstr ""
 
-#: admin/about.php:255
+#: admin/about.php:293
 msgid ""
 "Separate default image url for publishing to multiple social media accounts"
 msgstr ""
 
-#: admin/about.php:265
+#: admin/about.php:303
 msgid ""
 "Option to specify preference from featured image, post content, post meta "
 "and open graph tags"
 msgstr ""
 
-#: admin/about.php:274
+#: admin/about.php:312
 msgid ""
-"Publish multiple images to facebook, tumblr, linkedin and twitter along with "
-"post content"
+"Publish multiple images to facebook, tumblr, linkedin, twitter, threads and "
+"telegram along with post content"
 msgstr ""
 
-#: admin/about.php:283
+#: admin/about.php:321
 msgid "Option to specify multiphoto preference from post content and post meta"
 msgstr ""
 
-#: admin/about.php:295
+#: admin/about.php:333
 msgid "Video/Audio Options"
 msgstr ""
 
-#: admin/about.php:296
+#: admin/about.php:334
 msgid ""
-"Publish video to facebook, tumblr, Linkedin, Instagram and twitter along "
-"with post content"
+"Publish video to facebook, tumblr,Linkedin, Instagram, twitter, threads and "
+"telegram along with post content"
 msgstr ""
 
-#: admin/about.php:306
+#: admin/about.php:344
 msgid ""
 "Option to specify preference from post content, post meta and open graph tags"
 msgstr ""
 
-#: admin/about.php:316
+#: admin/about.php:354
 msgid "Publish audio to tumblr along with post content"
 msgstr ""
 
-#: admin/about.php:326
+#: admin/about.php:364
 msgid ""
 "Option to specify audio preference from  post content, post meta and open "
 "graph tags"
 msgstr ""
 
-#: admin/about.php:338
+#: admin/about.php:376
 msgid "Filter Options"
 msgstr ""
 
-#: admin/about.php:339
+#: admin/about.php:377
 msgid "Filter posts to publish based on categories"
 msgstr ""
 
-#: admin/about.php:349
+#: admin/about.php:387
 msgid "Filter posts to publish based on custom post types"
 msgstr ""
 
-#: admin/about.php:358
+#: admin/about.php:396
 msgid "Filter posts to publish based on sticky posts"
 msgstr ""
 
-#: admin/about.php:367
+#: admin/about.php:405
 msgid "Configuration to enable/disable page publishing"
 msgstr ""
 
-#: admin/about.php:377
+#: admin/about.php:415
 msgid "Category filter for individual accounts"
 msgstr ""
 
-#: admin/about.php:387
+#: admin/about.php:425
 msgid "Custom post type filter for individual accounts"
 msgstr ""
 
-#: admin/about.php:397
+#: admin/about.php:435
 msgid "Enable/Disable page publishing for individual accounts"
 msgstr ""
 
-#: admin/about.php:406
+#: admin/about.php:444
 msgid "Override auto publish scheduling for individual accounts"
 msgstr ""
 
-#: admin/about.php:415
+#: admin/about.php:453
 msgid "Override auto publish based on sticky posts for individual accounts"
 msgstr ""
 
-#: admin/about.php:426
+#: admin/about.php:464
 msgid "Scheduling"
 msgstr ""
 
-#: admin/about.php:427
+#: admin/about.php:465
 msgid "Instantaneous post publishing"
 msgstr ""
 
-#: admin/about.php:437
+#: admin/about.php:475
 msgid "Scheduled post publishing using cron"
 msgstr ""
 
-#: admin/about.php:446
+#: admin/about.php:484
 msgid "Status summary of auto publish tasks by mail"
 msgstr ""
 
-#: admin/about.php:456
+#: admin/about.php:494
 msgid "Configurable auto publishing time interval"
 msgstr ""
 
-#: admin/about.php:470
+#: admin/about.php:508
 msgid "Publishing History"
 msgstr ""
 
-#: admin/about.php:471
+#: admin/about.php:509
 msgid "View auto publish history"
 msgstr ""
 
-#: admin/about.php:480
+#: admin/about.php:518
 msgid "View auto publish error logs"
 msgstr ""
 
-#: admin/about.php:490
+#: admin/about.php:528
 msgid "Option to republish post"
 msgstr ""
 
-#: admin/about.php:500
+#: admin/about.php:538
 msgid "Option to reschedule publishing"
 msgstr ""
 
-#: admin/about.php:511
+#: admin/about.php:549
 msgid "Installation and Support"
 msgstr ""
 
-#: admin/about.php:512
+#: admin/about.php:550
 msgid "Free Installation"
 msgstr ""
 
-#: admin/about.php:521
+#: admin/about.php:559
 msgid "Privilege customer support"
 msgstr ""
 
-#: admin/about.php:531
+#: admin/about.php:569
 msgid "Addon Features"
 msgstr ""
 
-#: admin/about.php:532
+#: admin/about.php:570
 msgid "Advanced Autopublish Scheduler"
 msgstr ""
 
-#: admin/about.php:541
+#: admin/about.php:579
 msgid "URL-Shortener"
 msgstr ""
 
-#: admin/about.php:550
+#: admin/about.php:588
 msgid "Privilege Management"
 msgstr ""
 
-#: admin/about.php:559
+#: admin/about.php:597
 msgid "Other"
 msgstr ""
 
-#: admin/about.php:561
+#: admin/about.php:599
 #, php-format
 msgid ""
 "%s API package for 1 year, worth 10 USD(1 linkedin account @ 25 api per day)"
 msgstr ""
 
-#: admin/about.php:565
+#: admin/about.php:602
 msgid "1 month free subscription"
 msgstr ""
 
-#: admin/about.php:567
-msgid "3 months free subscription"
+#: admin/about.php:604
+msgid "1 year free subscription"
 msgstr ""
 
-#: admin/about.php:573
+#: admin/about.php:608
 msgid "Price"
 msgstr ""
 
-#: admin/about.php:574
+#: admin/about.php:609
 msgid "FREE"
 msgstr ""
 
-#: admin/about.php:575
-msgid "Starts from 39 USD"
+#: admin/about.php:610
+msgid "Starts from 29 USD"
 msgstr ""
 
-#: admin/about.php:576
-msgid "Starts from 69 USD"
+#: admin/about.php:611
+msgid "Starts from 59 USD"
 msgstr ""
 
-#: admin/about.php:579
+#: admin/about.php:614
 msgid "Purchase"
 msgstr ""
 
-#: admin/about.php:581
+#: admin/about.php:616 admin/footer.php:24
 msgid "Buy Now"
 msgstr ""
 
-#: admin/about.php:587
+#: admin/about.php:622
 msgid "Pinterest is added on experimental basis."
 msgstr ""
 
@@ -393,7 +409,7 @@ msgstr ""
 msgid "Share on"
 msgstr ""
 
-#: admin/admin-notices.php:50 admin/footer.php:42 admin/header.php:100
+#: admin/admin-notices.php:50 admin/header.php:100
 msgid "Donate"
 msgstr ""
 
@@ -401,60 +417,64 @@ msgstr ""
 msgid "Don't Show This Again"
 msgstr ""
 
-#: admin/footer.php:10
-#, php-format
-msgid "Fully Featured %s Plugin"
-msgstr ""
-
 #: admin/footer.php:11
-msgid "Just 39 USD"
+#, php-format
+msgid ""
+"%sUpgrade to the Fully Featured XYZ WP Social Media Auto Publish Premium "
+"Plugin for %sJust 29 USD%s"
 msgstr ""
 
-#: admin/footer.php:21
+#: admin/footer.php:17
+msgid ""
+"Unlock advanced scheduling, multi-account publishing, hashtag automation, "
+"and seamless social media integration!"
+msgstr ""
+
+#: admin/footer.php:29
 msgid "Compare Features"
 msgstr ""
 
-#: admin/footer.php:33
+#: admin/footer.php:41
 msgid "Follow Us"
 msgstr ""
 
-#: admin/footer.php:41
+#: admin/footer.php:49
 msgid "Support"
 msgstr ""
 
-#: admin/footer.php:43
+#: admin/footer.php:51
 msgid "Contact Us"
 msgstr ""
 
-#: admin/footer.php:44
+#: admin/footer.php:52
 msgid "Please Rate Us"
 msgstr ""
 
-#: admin/footer.php:50
+#: admin/footer.php:58
 msgid "Create a ticket at Wordpress forum"
 msgstr ""
 
-#: admin/footer.php:53
+#: admin/footer.php:61
 msgid "Stay tuned for our updates"
 msgstr ""
 
-#: admin/footer.php:118
+#: admin/footer.php:126
 msgid "Name"
 msgstr ""
 
-#: admin/footer.php:134
+#: admin/footer.php:142
 msgid "Email"
 msgstr ""
 
-#: admin/footer.php:136
+#: admin/footer.php:144
 msgid "Subscribe"
 msgstr ""
 
-#: admin/footer.php:153
+#: admin/footer.php:159
 msgid "Our Plugins"
 msgstr ""
 
-#: admin/footer.php:174
+#: admin/footer.php:180
 msgid "Powered by"
 msgstr ""
 
@@ -463,11 +483,11 @@ msgid "Settings updated successfully."
 msgstr ""
 
 #: admin/header.php:20 admin/header.php:33 admin/header.php:49
-#: admin/manage-authorizations.php:9 admin/manage-authorizations.php:132
-#: admin/manage-authorizations.php:199 admin/settings.php:29
+#: admin/manage-authorizations.php:9 admin/manage-authorizations.php:134
+#: admin/manage-authorizations.php:201 admin/settings.php:29
 #: admin/settings.php:45 admin/settings.php:159 admin/settings.php:166
 #: admin/settings.php:174 admin/settings.php:184 admin/settings.php:197
-#: admin/settings.php:1047 admin/settings.php:1080 admin/suggest_feature.php:11
+#: admin/settings.php:1044 admin/settings.php:1077 admin/suggest_feature.php:11
 #: admin/suggest_feature.php:19 admin/suggest_feature.php:27
 msgid "Dismiss"
 msgstr ""
@@ -540,93 +560,93 @@ msgstr ""
 msgid "Please authorize %s app under LinkedIn settings to access this page."
 msgstr ""
 
-#: admin/manage-authorizations.php:246 admin/menu.php:36
+#: admin/manage-authorizations.php:248 admin/menu.php:36
 msgid "Manage Authorizations"
 msgstr ""
 
-#: admin/manage-authorizations.php:271
+#: admin/manage-authorizations.php:273
 msgid "Current Plan:"
 msgstr ""
 
-#: admin/manage-authorizations.php:273
+#: admin/manage-authorizations.php:275
 msgid "Allowed LinkedIn users:"
 msgstr ""
 
-#: admin/manage-authorizations.php:274
+#: admin/manage-authorizations.php:276
 msgid "API limit per account :"
 msgstr ""
 
-#: admin/manage-authorizations.php:274
+#: admin/manage-authorizations.php:276
 msgid "per day"
 msgstr ""
 
-#: admin/manage-authorizations.php:275
+#: admin/manage-authorizations.php:277
 msgid "Package Expiry :"
 msgstr ""
 
-#: admin/manage-authorizations.php:276
+#: admin/manage-authorizations.php:278
 msgid "Package Status :"
 msgstr ""
 
-#: admin/manage-authorizations.php:286
+#: admin/manage-authorizations.php:288
 msgid "Upgrade/Renew"
 msgstr ""
 
-#: admin/manage-authorizations.php:297
+#: admin/manage-authorizations.php:299
 msgid "Show all entries"
 msgstr ""
 
-#: admin/manage-authorizations.php:298
+#: admin/manage-authorizations.php:300
 msgid "Show entries from current wp installation"
 msgstr ""
 
-#: admin/manage-authorizations.php:299
+#: admin/manage-authorizations.php:301
 msgid "Show entries from other wp installations"
 msgstr ""
 
-#: admin/manage-authorizations.php:305
+#: admin/manage-authorizations.php:307
 msgid "LinkedIn username"
 msgstr ""
 
-#: admin/manage-authorizations.php:306
+#: admin/manage-authorizations.php:308
 msgid "Selected pages"
 msgstr ""
 
-#: admin/manage-authorizations.php:308
+#: admin/manage-authorizations.php:310
 #, php-format
 msgid "%s url"
 msgstr ""
 
-#: admin/manage-authorizations.php:310
+#: admin/manage-authorizations.php:312
 msgid "Plugin"
 msgstr ""
 
-#: admin/manage-authorizations.php:312
+#: admin/manage-authorizations.php:314
 #, php-format
 msgid "Account ID %s"
 msgstr ""
 
-#: admin/manage-authorizations.php:315
+#: admin/manage-authorizations.php:317
 msgid "Action"
 msgstr ""
 
-#: admin/manage-authorizations.php:347
+#: admin/manage-authorizations.php:349
 msgid "Not Applicable"
 msgstr ""
 
-#: admin/manage-authorizations.php:354 admin/manage-authorizations.php:376
+#: admin/manage-authorizations.php:356 admin/manage-authorizations.php:378
 msgid "Delete"
 msgstr ""
 
-#: admin/manage-authorizations.php:367
+#: admin/manage-authorizations.php:369
 msgid "(Inactive)"
 msgstr ""
 
-#: admin/manage-authorizations.php:387
+#: admin/manage-authorizations.php:389
 msgid "No Authorizations"
 msgstr ""
 
-#: admin/manage-authorizations.php:396
+#: admin/manage-authorizations.php:398
 msgid "Unable to connect. Please check your curl and firewall settings"
 msgstr ""
 
@@ -673,93 +693,93 @@ msgstr ""
 msgid "Suggest a Feature"
 msgstr ""
 
-#: admin/metabox.php:307 admin/settings.php:313
+#: admin/metabox.php:317 admin/settings.php:313
 msgid "Enable auto publish posts to my linkedin account"
 msgstr ""
 
-#: admin/metabox.php:310 admin/settings.php:315 admin/settings.php:401
-#: admin/settings.php:441 admin/settings.php:446 admin/settings.php:460
-#: admin/settings.php:667 admin/settings.php:677 admin/settings.php:791
-#: admin/settings.php:842 admin/settings.php:852
+#: admin/metabox.php:320 admin/settings.php:315 admin/settings.php:397
+#: admin/settings.php:437 admin/settings.php:442 admin/settings.php:456
+#: admin/settings.php:663 admin/settings.php:673 admin/settings.php:788
+#: admin/settings.php:839 admin/settings.php:849
 msgid "Yes"
 msgstr ""
 
-#: admin/metabox.php:311 admin/settings.php:316 admin/settings.php:402
-#: admin/settings.php:442 admin/settings.php:447 admin/settings.php:461
-#: admin/settings.php:668 admin/settings.php:678 admin/settings.php:792
-#: admin/settings.php:843 admin/settings.php:853
+#: admin/metabox.php:321 admin/settings.php:316 admin/settings.php:398
+#: admin/settings.php:438 admin/settings.php:443 admin/settings.php:457
+#: admin/settings.php:664 admin/settings.php:674 admin/settings.php:789
+#: admin/settings.php:840 admin/settings.php:850
 msgid "No"
 msgstr ""
 
-#: admin/metabox.php:317 admin/settings.php:467
+#: admin/metabox.php:327 admin/settings.php:463
 msgid "Share post content with"
 msgstr ""
 
-#: admin/metabox.php:320 admin/settings.php:470
+#: admin/metabox.php:330 admin/settings.php:466
 msgid "Public"
 msgstr ""
 
-#: admin/metabox.php:321
+#: admin/metabox.php:331
 msgid "Connections only"
 msgstr ""
 
-#: admin/metabox.php:326 admin/settings.php:406
+#: admin/metabox.php:336 admin/settings.php:402
 msgid "Message format for posting"
 msgstr ""
 
-#: admin/metabox.php:330 admin/settings.php:410
+#: admin/metabox.php:340 admin/settings.php:406
 msgid "Insert the title of your post."
 msgstr ""
 
-#: admin/metabox.php:331 admin/settings.php:411
+#: admin/metabox.php:341 admin/settings.php:407
 msgid "Insert the URL where your post is displayed."
 msgstr ""
 
-#: admin/metabox.php:332 admin/settings.php:412
+#: admin/metabox.php:342 admin/settings.php:408
 msgid "Insert the excerpt of your post."
 msgstr ""
 
-#: admin/metabox.php:333 admin/settings.php:413
+#: admin/metabox.php:343 admin/settings.php:409
 msgid "Insert the description of your post."
 msgstr ""
 
-#: admin/metabox.php:334 admin/settings.php:414
+#: admin/metabox.php:344 admin/settings.php:410
 msgid "Insert the name of your blog."
 msgstr ""
 
-#: admin/metabox.php:335 admin/settings.php:415
+#: admin/metabox.php:345 admin/settings.php:411
 msgid "Insert the nicename of the author."
 msgstr ""
 
-#: admin/metabox.php:336 admin/settings.php:416
+#: admin/metabox.php:346 admin/settings.php:412
 msgid "Insert the ID of your post."
 msgstr ""
 
-#: admin/metabox.php:337 admin/settings.php:417
+#: admin/metabox.php:347 admin/settings.php:413
 msgid "Insert the publish date of your post."
 msgstr ""
 
-#: admin/metabox.php:338 admin/settings.php:418
+#: admin/metabox.php:348 admin/settings.php:414
 msgid "Insert the display name of the author."
 msgstr ""
 
-#: admin/metabox.php:343 admin/settings.php:422
+#: admin/metabox.php:353 admin/settings.php:418
 msgid "Select"
 msgstr ""
 
-#: admin/metabox.php:360 admin/settings.php:380
+#: admin/metabox.php:370 admin/settings.php:376
 msgid "Posting method"
 msgstr ""
 
-#: admin/metabox.php:364 admin/settings.php:386
+#: admin/metabox.php:374 admin/settings.php:382
 msgid "Simple text message"
 msgstr ""
 
-#: admin/metabox.php:366 admin/settings.php:388
+#: admin/metabox.php:376 admin/settings.php:384
 msgid "Attach your blog post"
 msgstr ""
 
-#: admin/metabox.php:368 admin/settings.php:390
+#: admin/metabox.php:378 admin/settings.php:386
 msgid "Text message with image"
 msgstr ""
 
@@ -871,7 +891,7 @@ msgstr ""
 msgid "(requires app submission and LinkedIn review)"
 msgstr ""
 
-#: admin/settings.php:327 admin/settings.php:373
+#: admin/settings.php:327 admin/settings.php:369
 msgid "How can I create a Linkedin Application"
 msgstr ""
 
@@ -888,170 +908,169 @@ msgstr ""
 msgid "30 DAYS FREE TRIAL AVAILABLE"
 msgstr ""
 
-#: admin/settings.php:341
+#: admin/settings.php:339
 msgid "LinkedIn Sign-In Method"
 msgstr ""
 
-#: admin/settings.php:343
+#: admin/settings.php:341
 msgid ""
 "Starting from August 1, 2023, \"<b>Sign In with LinkedIn</b>\" (SIWL) has "
 "been deprecated. For all new apps, we strongly recommend using \"<b>Sign In "
 "with LinkedIn using OpenID Connect</b>\" as the preferred Sign-In method.\n"
-"\n"
 "<br/>Existing apps that are currently utilizing \"Sign In with LinkedIn,\" "
 "can continue to do so. If you decide transition to \"Sign In with LinkedIn "
 "using OpenID Connect,\" please ensure that you add this option under your "
 "LinkedIn Developer App\"s product section."
 msgstr ""
 
-#: admin/settings.php:349
+#: admin/settings.php:346
 msgid "Sign In with LinkedIn"
 msgstr ""
 
-#: admin/settings.php:351
+#: admin/settings.php:348
 msgid "Sign In with LinkedIn using OpenID Connect"
 msgstr ""
 
-#: admin/settings.php:364
+#: admin/settings.php:360
 #, php-format
 msgid "Connect your %s account"
 msgstr ""
 
-#: admin/settings.php:370
+#: admin/settings.php:366
 msgid "Client ID"
 msgstr ""
 
-#: admin/settings.php:375
+#: admin/settings.php:371
 msgid "Client secret"
 msgstr ""
 
-#: admin/settings.php:395
+#: admin/settings.php:391
 msgid "Enforce og tags for LinkedIn"
 msgstr ""
 
-#: admin/settings.php:397
+#: admin/settings.php:393
 msgid ""
 "If you enable, Open Graph tags will be generated while posting to LinkedIn, "
 "when using the posting method,<b> Attach your blog post."
 msgstr ""
 
-#: admin/settings.php:419
+#: admin/settings.php:415
 msgid "Optional"
 msgstr ""
 
-#: admin/settings.php:438 admin/settings.php:458
+#: admin/settings.php:434 admin/settings.php:454
 msgid "Share post to profile"
 msgstr ""
 
-#: admin/settings.php:469
+#: admin/settings.php:465
 msgid "Connections"
 msgstr ""
 
-#: admin/settings.php:475
+#: admin/settings.php:471
 msgid "Select pages for auto publish"
 msgstr ""
 
-#: admin/settings.php:493
+#: admin/settings.php:489
 msgid "Failed to fetch company details."
 msgstr ""
 
-#: admin/settings.php:510 admin/settings.php:514 admin/settings.php:533
+#: admin/settings.php:506 admin/settings.php:510 admin/settings.php:529
 msgid "No companies found."
 msgstr ""
 
-#: admin/settings.php:523
+#: admin/settings.php:519
 msgid "Share post to company page"
 msgstr ""
 
-#: admin/settings.php:548
+#: admin/settings.php:544
 msgid "Save"
 msgstr ""
 
-#: admin/settings.php:552
+#: admin/settings.php:548
 msgid "Free trial is available only for first time users"
 msgstr ""
 
-#: admin/settings.php:555
+#: admin/settings.php:551
 msgid "Use reauthorize button to change selected values"
 msgstr ""
 
-#: admin/settings.php:661
+#: admin/settings.php:657
 msgid "Basic Settings"
 msgstr ""
 
-#: admin/settings.php:664
+#: admin/settings.php:660
 msgid "Publish wordpress `pages` to linkedin"
 msgstr ""
 
-#: admin/settings.php:674
+#: admin/settings.php:670
 msgid "Publish wordpress `posts` to linkedin"
 msgstr ""
 
-#: admin/settings.php:700
+#: admin/settings.php:696
 msgid "Select wordpress custom post types for auto publish"
 msgstr ""
 
-#: admin/settings.php:718
+#: admin/settings.php:714
 msgid "Advanced Settings"
 msgstr ""
 
-#: admin/settings.php:721
+#: admin/settings.php:717
 msgid "Select post categories for auto publish"
 msgstr ""
 
-#: admin/settings.php:727
+#: admin/settings.php:723
 msgid "All"
 msgstr ""
 
-#: admin/settings.php:729
+#: admin/settings.php:725
 msgid "Specific"
 msgstr ""
 
-#: admin/settings.php:764
+#: admin/settings.php:760
 msgid "NIL"
 msgstr ""
 
-#: admin/settings.php:770
-msgid "Auto publish on editing posts/pages/custom post types"
-msgstr ""
-
-#: admin/settings.php:773 admin/settings.php:782
-msgid "Enabled"
-msgstr ""
-
-#: admin/settings.php:774 admin/settings.php:783
-msgid "Disabled"
-msgstr ""
-
-#: admin/settings.php:775
-msgid "Use settings from post creation or post updation"
-msgstr ""
-
-#: admin/settings.php:779
+#: admin/settings.php:766
 msgid "Auto publish on creating posts/pages/custom post types"
 msgstr ""
 
-#: admin/settings.php:789
+#: admin/settings.php:769 admin/settings.php:778
+msgid "Enabled"
+msgstr ""
+
+#: admin/settings.php:770 admin/settings.php:779
+msgid "Disabled"
+msgstr ""
+
+#: admin/settings.php:771 admin/settings.php:780
+msgid "Use metabox settings"
+msgstr ""
+
+#: admin/settings.php:775
+msgid "Auto publish on editing posts/pages/custom post types"
+msgstr ""
+
+#: admin/settings.php:786
 msgid "Enable SSL peer verification in remote requests"
 msgstr ""
 
-#: admin/settings.php:797
+#: admin/settings.php:794
 msgid "Apply filters during publishing"
 msgstr ""
 
-#: admin/settings.php:836
+#: admin/settings.php:833
 msgid "Other Settings"
 msgstr ""
 
-#: admin/settings.php:839
+#: admin/settings.php:836
 msgid "Enable credit link to author"
 msgstr ""
 
-#: admin/settings.php:849
+#: admin/settings.php:846
 msgid "Enable premium version ads"
 msgstr ""
 
-#: admin/settings.php:861
+#: admin/settings.php:858
 msgid "Update Settings"
 msgstr ""
 
