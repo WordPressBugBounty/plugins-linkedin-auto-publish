@@ -426,7 +426,7 @@ else
 		<option value ="8">{POST_PUBLISH_DATE}   </option>
 		<option value= "9">{USER_DISPLAY_NAME}</option>
 		</select> </td></tr><tr><td>&nbsp;</td><td>
-		<textarea id="xyz_lnap_lnmessage"  name="xyz_lnap_lnmessage" style="height:80px !important;" ><?php echo esc_textarea(get_option('xyz_lnap_lnmessage'));?></textarea>
+		<textarea id="xyz_lnap_lnmessage"  name="xyz_lnap_lnmessage"><?php echo esc_textarea(get_option('xyz_lnap_lnmessage'));?></textarea>
 	</td></tr>
 <?php if (get_option('xyz_lnap_ln_api_permission')==2 && $lnaf==0 ){
 	//////////////////////////////////////////////

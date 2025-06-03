@@ -363,7 +363,7 @@ function inArray(needle, haystack) {
 		</select> </td></tr>
 		
 		<tr id="lnmftarea_lnap"><td>&nbsp;</td><td>
-		<textarea id="xyz_lnap_lnmessage"  name="xyz_lnap_lnmessage" style="height:80px !important;" ><?php echo esc_textarea($xyz_lnap_lnmessage);?></textarea>
+		<textarea id="xyz_lnap_lnmessage"  name="xyz_lnap_lnmessage"><?php echo esc_textarea($xyz_lnap_lnmessage);?></textarea>
 	</td></tr>
 	
 	<tr valign="top" id="lnap_lnpm">

@@ -457,7 +457,7 @@ class LNAPLinkedInOAuth2 extends LNAPOAuth2 {
 		$params['method']='post';
 		$params['headers']['Authorization']='Bearer '.$this->access_token;
 		$params['headers']['Content-Type']='application/json';//application/binary
-    $params['headers']['Linkedin-Version']='202502';
+    $params['headers']['Linkedin-Version']='202504';
 		$params['headers']['X-Restli-Protocol-Version']='2.0.0';
 		$params['headers']['Connection']='Keep-Alive';
 		$params['args']=json_encode($args,JSON_UNESCAPED_SLASHES);
@@ -511,7 +511,7 @@ class LNAPLinkedInOAuth2 extends LNAPOAuth2 {
 		$params['headers']['Content-Type']='application/json';
 		$params['headers']['x-li-format']='json';
 		$params['headers']['Connection']='Keep-Alive';
-    $params['headers']['Linkedin-Version']='202502';
+    $params['headers']['Linkedin-Version']='202504';
 		$params['headers']['X-RestLi-Protocol-Version']='2.0.0';
 		$this->error = '';
 		$method=isset($params['method'])?$params['method']:'get';
@@ -600,7 +600,7 @@ class LNAPLinkedInOAuth2 extends LNAPOAuth2 {
 		$params['headers']['Authorization']='Bearer '.$this->access_token;
 		$params['headers']['Content-Type']='application/json';
 		$params['headers']['x-li-format']='json';
-    $params['headers']['Linkedin-Version']='202502';
+    $params['headers']['Linkedin-Version']='202504';
 		$params['headers']['X-Restli-Protocol-Version']='2.0.0';
 		$params['headers']['Connection']='Keep-Alive';
 		$params['args']=json_encode($args);

@@ -3,8 +3,8 @@ Contributors: f1logic
 Donate link: https://xyzscripts.com/donate/
 Tags:  linkedin auto publish, wp to linkedin auto publish, linkedIn publishing, post to linkedIn, linkedin, social media auto publish, social media publishing, social network auto publish, social media, social network, add link to linkedIn, post to linkedIn company pages, linkedin companies
 Requires at least: 2.8
-Tested up to: 6.7.2
-Stable tag: 1.9.5
+Tested up to: 6.8.1
+Stable tag: 1.9.6
 License: GPLv2 or later
 
 Publish posts automatically to LinkedIn.
@@ -122,6 +122,11 @@ SSL peer verification may not be functioning in your server. Please turn off SSL
 4. Auto publish logs.
 
 == Changelog ==
+
+= WP to LinkedIn Auto Publish 1.9.6 =
+* Added version check to trigger DB updates and clear cache on updates
+* Compatibility with latest version of WordPress
+* LinkedIn api updated
 
 = WP to LinkedIn Auto Publish 1.9.5 =
 * Improved compatibility with PHP & WordPress
