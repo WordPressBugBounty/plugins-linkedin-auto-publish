@@ -51,8 +51,11 @@ if(isset($_POST['lnauth']))
 }
 if( isset($_GET['error']) && isset($_GET['error_description']) )//if any error
 {
-	header("Location:".admin_url('admin.php?page=linkedin-auto-publish-settings&ln_auth_err='.$_GET['error'].':'.$_GET['error_description']));
-	exit();
+	$ln_error = isset( $_GET['error'] ) ? sanitize_text_field( $_GET['error'] ) : '';
+	$ln_error_description = isset( $_GET['error_description'] ) ? sanitize_text_field( $_GET['error_description'] ) : '';
+	$redirect_url = admin_url( 'admin.php?page=linkedin-auto-publish-settings&ln_auth_err=' . urlencode( $ln_error . ':' . $ln_error_description ) );
+	wp_safe_redirect( $redirect_url );
+	exit;
 }
 else if(isset($_GET['code']) && isset($_GET['state']) && $_GET['state']==$state)
 {
@@ -74,13 +77,16 @@ else if(isset($_GET['code']) && isset($_GET['state']) && $_GET['state']==$state)
 	update_option('xyz_lnap_application_lnarray', $ln_acc_tok_json);
 	update_option('xyz_lnap_lnaf',0);
 
-	header("Location:".admin_url('admin.php?page=linkedin-auto-publish-settings&msg=4'));
-	exit();
+	wp_safe_redirect( admin_url( 'admin.php?page=linkedin-auto-publish-settings&msg=4' ) );
+	exit;
 	}
 	else if (isset($ln_acc_tok_arr->error)&& isset($ln_acc_tok_arr->error_description))
 	{
-		header("Location:".admin_url('admin.php?page=linkedin-auto-publish-settings&ln_auth_err='.$ln_acc_tok_arr->error.':'.$ln_acc_tok_arr->error_description));
-		exit();
+		$ln_error = isset( $ln_acc_tok_arr->error ) ? sanitize_text_field( $ln_acc_tok_arr->error ) : '';
+		$ln_error_description = isset( $ln_acc_tok_arr->error_description ) ? sanitize_text_field( $ln_acc_tok_arr->error_description ) : '';
+		$ln_auth_err = urlencode( $ln_error . ':' . $ln_error_description );
+		wp_safe_redirect( admin_url( 'admin.php?page=linkedin-auto-publish-settings&ln_auth_err=' . $ln_auth_err ) );
+		exit;
 	}
 }
 

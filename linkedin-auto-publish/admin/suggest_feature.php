@@ -48,13 +48,17 @@ if (isset($_POST) && isset($_POST['xyz_send_mail']))
 		$xyz_lnap_headers = array('From: '.$xyz_lnap_admin_username.' <'. $xyz_lnap_sender_email .'>' ,'Content-Type: text/html; charset=UTF-8');
 		$wp_mail_processed=wp_mail( $xyz_lnap_recv_email, $xyz_lnap_mail_subject, $xyz_lnap_feature_content, $xyz_lnap_headers );
 		if ($wp_mail_processed==true){
-		 header("Location:".admin_url('admin.php?page=linkedin-auto-publish-suggest-features&msg=1'));
-		 exit();
+			wp_safe_redirect( admin_url( 'admin.php?page=linkedin-auto-publish-suggest-features&msg=1' ) );
+			exit;
 		}else {
-			header("Location:".admin_url('admin.php?page=linkedin-auto-publish-suggest-features&msg=2')); exit();}
+			wp_safe_redirect( admin_url( 'admin.php?page=linkedin-auto-publish-suggest-features&msg=2' ) );
+			exit;
+		}
 	}
 	else{ 
-		header("Location:".admin_url('admin.php?page=linkedin-auto-publish-suggest-features&msg=3')); exit();}
+		wp_safe_redirect( admin_url( 'admin.php?page=linkedin-auto-publish-suggest-features&msg=3' ) );
+		exit;
+	}
 }?>
 <form method="post" >
 <?php wp_nonce_field( 'xyz_lnap_suggest_feature_form_nonce' );?>

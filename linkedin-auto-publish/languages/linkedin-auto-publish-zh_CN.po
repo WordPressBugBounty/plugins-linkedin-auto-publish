@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: multilang\n"
-"POT-Creation-Date: 2025-03-24 17:02+0530\n"
-"PO-Revision-Date: 2025-03-24 17:03+0530\n"
+"POT-Creation-Date: 2025-07-29 16:11+0530\n"
+"PO-Revision-Date: 2025-07-29 16:11+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -84,7 +84,7 @@ msgstr "脸书"
 msgid "Twitter"
 msgstr "推特"
 
-#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:309
+#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:303
 msgid "LinkedIn"
 msgstr "领英"
 
@@ -185,26 +185,30 @@ msgstr "使用帖子标签作为哈希标签的选项"
 msgid "Enable/Disable SSL peer verification"
 msgstr "启用/禁用 SSL 对等验证"
 
-#: admin/about.php:281
+#: admin/about.php:278
+msgid "Carousel post support for Instagram and Telegram"
+msgstr "轮播帖子支持 Instagram 和 Telegram"
+
+#: admin/about.php:290
 msgid "Image Options"
 msgstr "图像选项"
 
-#: admin/about.php:282
+#: admin/about.php:291
 msgid "Publish images along with post content"
 msgstr "发布图像以及帖子内容"
 
-#: admin/about.php:293
+#: admin/about.php:302
 msgid ""
 "Separate default image url for publishing to multiple social media accounts"
 msgstr "用于发布到多个社交媒体帐户的单独默认图像 URL"
 
-#: admin/about.php:303
+#: admin/about.php:312
 msgid ""
 "Option to specify preference from featured image, post content, post meta "
 "and open graph tags"
 msgstr "选择从特色图像、帖子内容、帖子元和开放图形标签中指定偏好"
 
-#: admin/about.php:312
+#: admin/about.php:321
 msgid ""
 "Publish multiple images to facebook, tumblr, linkedin, twitter, threads and "
 "telegram along with post content"
@@ -212,15 +216,15 @@ msgstr ""
 "将多张图像连同帖子内容发布到 facebook、tumblr、linkedin、twitter、threads 和 "
 "telegram"
 
-#: admin/about.php:321
+#: admin/about.php:330
 msgid "Option to specify multiphoto preference from post content and post meta"
 msgstr "从帖子内容和帖子元中指定多张照片偏好的选项"
 
-#: admin/about.php:333
+#: admin/about.php:342
 msgid "Video/Audio Options"
 msgstr "视频/音频选项"
 
-#: admin/about.php:334
+#: admin/about.php:343
 msgid ""
 "Publish video to facebook, tumblr,Linkedin, Instagram, twitter, threads and "
 "telegram along with post content"
@@ -228,172 +232,172 @@ msgstr ""
 "将视频连同帖子内容发布到 facebook、tumblr、Linkedin、Instagram、twitter、"
 "threads 和 telegram"
 
-#: admin/about.php:344
+#: admin/about.php:353
 msgid ""
 "Option to specify preference from post content, post meta and open graph tags"
 msgstr "从帖子内容、帖子元和打开图形标签中指定音频偏好的选项"
 
-#: admin/about.php:354
+#: admin/about.php:363
 msgid "Publish audio to tumblr along with post content"
 msgstr "将音频与帖子内容一起发布到 tumblr"
 
-#: admin/about.php:364
+#: admin/about.php:373
 msgid ""
 "Option to specify audio preference from  post content, post meta and open "
 "graph tags"
 msgstr "从帖子内容、帖子元和打开图形标签中指定音频偏好的选项"
 
-#: admin/about.php:376
+#: admin/about.php:385
 msgid "Filter Options"
 msgstr "过滤器选项"
 
-#: admin/about.php:377
+#: admin/about.php:386
 msgid "Filter posts to publish based on categories"
 msgstr "根据类别过滤要发布的帖子"
 
-#: admin/about.php:387
+#: admin/about.php:396
 msgid "Filter posts to publish based on custom post types"
 msgstr "根据自定义帖子类型过滤要发布的帖子"
 
-#: admin/about.php:396
+#: admin/about.php:405
 msgid "Filter posts to publish based on sticky posts"
 msgstr "根据粘性帖子过滤要发布的帖子"
 
-#: admin/about.php:405
+#: admin/about.php:414
 msgid "Configuration to enable/disable page publishing"
 msgstr "启用/禁用页面发布的配置"
 
-#: admin/about.php:415
+#: admin/about.php:424
 msgid "Category filter for individual accounts"
 msgstr "个人帐户的类别过滤器"
 
-#: admin/about.php:425
+#: admin/about.php:434
 msgid "Custom post type filter for individual accounts"
 msgstr "个人帐户的自定义帖子类型过滤器"
 
-#: admin/about.php:435
+#: admin/about.php:444
 msgid "Enable/Disable page publishing for individual accounts"
 msgstr "为个人帐户启用/禁用页面发布"
 
-#: admin/about.php:444
+#: admin/about.php:453
 msgid "Override auto publish scheduling for individual accounts"
 msgstr "覆盖个人帐户的自动发布计划"
 
-#: admin/about.php:453
+#: admin/about.php:462
 msgid "Override auto publish based on sticky posts for individual accounts"
 msgstr "覆盖基于个人帐户的粘性帖子的自动发布"
 
-#: admin/about.php:464
+#: admin/about.php:473
 msgid "Scheduling"
 msgstr "调度"
 
-#: admin/about.php:465
+#: admin/about.php:474
 msgid "Instantaneous post publishing"
 msgstr "即时发布"
 
-#: admin/about.php:475
+#: admin/about.php:484
 msgid "Scheduled post publishing using cron"
 msgstr "使用 cron 定时发布"
 
-#: admin/about.php:484
+#: admin/about.php:493
 msgid "Status summary of auto publish tasks by mail"
 msgstr "通过邮件自动发布任务的状态摘要"
 
-#: admin/about.php:494
+#: admin/about.php:503
 msgid "Configurable auto publishing time interval"
 msgstr "可配置的自动发布时间间隔"
 
-#: admin/about.php:508
+#: admin/about.php:517
 msgid "Publishing History"
 msgstr "出版历史"
 
-#: admin/about.php:509
+#: admin/about.php:518
 msgid "View auto publish history"
 msgstr "查看自动发布历史"
 
-#: admin/about.php:518
+#: admin/about.php:527
 msgid "View auto publish error logs"
 msgstr "查看自动发布错误日志"
 
-#: admin/about.php:528
+#: admin/about.php:537
 msgid "Option to republish post"
 msgstr "重新发布帖子的选项"
 
-#: admin/about.php:538
+#: admin/about.php:547
 msgid "Option to reschedule publishing"
 msgstr "重新安排发布的选项"
 
-#: admin/about.php:549
+#: admin/about.php:558
 msgid "Installation and Support"
 msgstr "安装和支持"
 
-#: admin/about.php:550
+#: admin/about.php:559
 msgid "Free Installation"
 msgstr "免费安装"
 
-#: admin/about.php:559
+#: admin/about.php:568
 msgid "Privilege customer support"
 msgstr "特权客户支持"
 
-#: admin/about.php:569
+#: admin/about.php:578
 msgid "Addon Features"
 msgstr "附加功能"
 
-#: admin/about.php:570
+#: admin/about.php:579
 msgid "Advanced Autopublish Scheduler"
 msgstr "高级自动发布计划程序"
 
-#: admin/about.php:579
+#: admin/about.php:588
 msgid "URL-Shortener"
 msgstr "网址缩短器"
 
-#: admin/about.php:588
+#: admin/about.php:597
 msgid "Privilege Management"
 msgstr "权限管理"
 
-#: admin/about.php:597
+#: admin/about.php:606
 msgid "Other"
 msgstr "其他"
 
-#: admin/about.php:599
+#: admin/about.php:608
 #, php-format
 msgid ""
 "%s API package for 1 year, worth 10 USD(1 linkedin account @ 25 api per day)"
 msgstr "%s API 包 1 年，价值 10 美元（1 个linkedin 账户 @ 25 api 每天）"
 
-#: admin/about.php:602
+#: admin/about.php:611
 msgid "1 month free subscription"
 msgstr "1个月免费订阅"
 
-#: admin/about.php:604
+#: admin/about.php:613
 msgid "1 year free subscription"
 msgstr "1 年免费订阅"
 
-#: admin/about.php:608
+#: admin/about.php:617
 msgid "Price"
 msgstr "价钱"
 
-#: admin/about.php:609
+#: admin/about.php:618
 msgid "FREE"
 msgstr "免费"
 
-#: admin/about.php:610
+#: admin/about.php:619
 msgid "Starts from 29 USD"
 msgstr "29 美元起"
 
-#: admin/about.php:611
+#: admin/about.php:620
 msgid "Starts from 59 USD"
 msgstr "59 美元起"
 
-#: admin/about.php:614
+#: admin/about.php:623
 msgid "Purchase"
 msgstr "购买"
 
-#: admin/about.php:616 admin/footer.php:24
+#: admin/about.php:625 admin/footer.php:24
 msgid "Buy Now"
 msgstr "立即购买"
 
-#: admin/about.php:622
+#: admin/about.php:631
 msgid "Pinterest is added on experimental basis."
 msgstr "Pinterest 是在实验基础上添加的。"
 
@@ -706,93 +710,93 @@ msgstr "日志"
 msgid "Suggest a Feature"
 msgstr "建议一个功能"
 
-#: admin/metabox.php:317 admin/settings.php:313
+#: admin/metabox.php:311 admin/settings.php:313
 msgid "Enable auto publish posts to my linkedin account"
 msgstr "启用自动将帖子发布到我的领英帐户"
 
-#: admin/metabox.php:320 admin/settings.php:315 admin/settings.php:397
+#: admin/metabox.php:314 admin/settings.php:315 admin/settings.php:397
 #: admin/settings.php:437 admin/settings.php:442 admin/settings.php:456
 #: admin/settings.php:663 admin/settings.php:673 admin/settings.php:788
 #: admin/settings.php:839 admin/settings.php:849
 msgid "Yes"
 msgstr "没有人"
 
-#: admin/metabox.php:321 admin/settings.php:316 admin/settings.php:398
+#: admin/metabox.php:315 admin/settings.php:316 admin/settings.php:398
 #: admin/settings.php:438 admin/settings.php:443 admin/settings.php:457
 #: admin/settings.php:664 admin/settings.php:674 admin/settings.php:789
 #: admin/settings.php:840 admin/settings.php:850
 msgid "No"
 msgstr "不"
 
-#: admin/metabox.php:327 admin/settings.php:463
+#: admin/metabox.php:321 admin/settings.php:463
 msgid "Share post content with"
 msgstr "分享帖子内容"
 
-#: admin/metabox.php:330 admin/settings.php:466
+#: admin/metabox.php:324 admin/settings.php:466
 msgid "Public"
 msgstr "公众"
 
-#: admin/metabox.php:331
+#: admin/metabox.php:325
 msgid "Connections only"
 msgstr "仅限连接"
 
-#: admin/metabox.php:336 admin/settings.php:402
+#: admin/metabox.php:330 admin/settings.php:402
 msgid "Message format for posting"
 msgstr "发帖的消息格式"
 
-#: admin/metabox.php:340 admin/settings.php:406
+#: admin/metabox.php:334 admin/settings.php:406
 msgid "Insert the title of your post."
 msgstr "插入帖子的标题。"
 
-#: admin/metabox.php:341 admin/settings.php:407
+#: admin/metabox.php:335 admin/settings.php:407
 msgid "Insert the URL where your post is displayed."
 msgstr "插入显示您的帖子的 URL。"
 
-#: admin/metabox.php:342 admin/settings.php:408
+#: admin/metabox.php:336 admin/settings.php:408
 msgid "Insert the excerpt of your post."
 msgstr "插入您的帖子的摘录。"
 
-#: admin/metabox.php:343 admin/settings.php:409
+#: admin/metabox.php:337 admin/settings.php:409
 msgid "Insert the description of your post."
 msgstr "插入您的帖子的描述。"
 
-#: admin/metabox.php:344 admin/settings.php:410
+#: admin/metabox.php:338 admin/settings.php:410
 msgid "Insert the name of your blog."
 msgstr "插入您的博客名称。"
 
-#: admin/metabox.php:345 admin/settings.php:411
+#: admin/metabox.php:339 admin/settings.php:411
 msgid "Insert the nicename of the author."
 msgstr "插入作者的昵称。"
 
-#: admin/metabox.php:346 admin/settings.php:412
+#: admin/metabox.php:340 admin/settings.php:412
 msgid "Insert the ID of your post."
 msgstr "插入您的帖子的 ID。"
 
-#: admin/metabox.php:347 admin/settings.php:413
+#: admin/metabox.php:341 admin/settings.php:413
 msgid "Insert the publish date of your post."
 msgstr "插入帖子的发布日期。"
 
-#: admin/metabox.php:348 admin/settings.php:414
+#: admin/metabox.php:342 admin/settings.php:414
 msgid "Insert the display name of the author."
 msgstr "插入作者的显示名称。"
 
-#: admin/metabox.php:353 admin/settings.php:418
+#: admin/metabox.php:347 admin/settings.php:418
 msgid "Select"
 msgstr "选择"
 
-#: admin/metabox.php:370 admin/settings.php:376
+#: admin/metabox.php:364 admin/settings.php:376
 msgid "Posting method"
 msgstr "发帖方式"
 
-#: admin/metabox.php:374 admin/settings.php:382
+#: admin/metabox.php:368 admin/settings.php:382
 msgid "Simple text message"
 msgstr "简单的短信"
 
-#: admin/metabox.php:376 admin/settings.php:384
+#: admin/metabox.php:370 admin/settings.php:384
 msgid "Attach your blog post"
 msgstr "附上您的博文"
 
-#: admin/metabox.php:378 admin/settings.php:386
+#: admin/metabox.php:372 admin/settings.php:386
 msgid "Text message with image"
 msgstr "带图片的短信"
 
@@ -1052,19 +1056,19 @@ msgstr "具体的"
 msgid "NIL"
 msgstr "零"
 
-#: admin/settings.php:766
+#: admin/settings.php:765
 msgid "Auto publish on creating posts/pages/custom post types"
 msgstr "在创建帖子/页面/自定义帖子类型时自动发布"
 
-#: admin/settings.php:769 admin/settings.php:778
+#: admin/settings.php:768 admin/settings.php:778
 msgid "Enabled"
 msgstr "启用"
 
-#: admin/settings.php:770 admin/settings.php:779
+#: admin/settings.php:769 admin/settings.php:779
 msgid "Disabled"
 msgstr "禁用"
 
-#: admin/settings.php:771 admin/settings.php:780
+#: admin/settings.php:770 admin/settings.php:780
 msgid "Use metabox settings"
 msgstr "通用设置"
 
@@ -1109,17 +1113,17 @@ msgstr "%s 无法处理请求。"
 msgid "Please suggest a feature"
 msgstr "请推荐一个功能"
 
-#: admin/suggest_feature.php:61
+#: admin/suggest_feature.php:67
 msgid "Contribute And Get Rewarded"
 msgstr "贡献并获得奖励"
 
-#: admin/suggest_feature.php:62
+#: admin/suggest_feature.php:68
 msgid ""
 "Suggest a feature for this plugin and stand a chance to get a free copy of "
 "premium version of this plugin."
 msgstr "建议此插件的功能并有机会获得此插件的高级版本的免费副本。"
 
-#: admin/suggest_feature.php:68
+#: admin/suggest_feature.php:74
 msgid "Send Mail To Us"
 msgstr "发送邮件给我们"
 

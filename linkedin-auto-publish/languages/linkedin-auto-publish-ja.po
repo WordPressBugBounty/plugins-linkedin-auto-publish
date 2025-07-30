@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: multilang\n"
-"POT-Creation-Date: 2025-03-24 16:54+0530\n"
-"PO-Revision-Date: 2025-03-24 16:55+0530\n"
+"POT-Creation-Date: 2025-07-29 16:10+0530\n"
+"PO-Revision-Date: 2025-07-29 16:10+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -86,7 +86,7 @@ msgstr "フェイスブック"
 msgid "Twitter"
 msgstr "ツイッター"
 
-#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:309
+#: admin/about.php:56 admin/admin-notices.php:58 admin/metabox.php:303
 msgid "LinkedIn"
 msgstr "リンクトイン"
 
@@ -187,21 +187,25 @@ msgstr "投稿タグをハッシュタグとして使用するオプション"
 msgid "Enable/Disable SSL peer verification"
 msgstr "SSLピア検証を有効/無効にします"
 
-#: admin/about.php:281
+#: admin/about.php:278
+msgid "Carousel post support for Instagram and Telegram"
+msgstr "Instagram と Telegram のカルーセル投稿のサポート"
+
+#: admin/about.php:290
 msgid "Image Options"
 msgstr "画像オプション"
 
-#: admin/about.php:282
+#: admin/about.php:291
 msgid "Publish images along with post content"
 msgstr "投稿コンテンツと一緒に画像を公開する"
 
-#: admin/about.php:293
+#: admin/about.php:302
 msgid ""
 "Separate default image url for publishing to multiple social media accounts"
 msgstr ""
 "複数のソーシャルメディアアカウントに公開するための個別のデフォルト画像URL"
 
-#: admin/about.php:303
+#: admin/about.php:312
 msgid ""
 "Option to specify preference from featured image, post content, post meta "
 "and open graph tags"
@@ -209,7 +213,7 @@ msgstr ""
 "注目の画像、投稿コンテンツ、投稿メタ、オープングラフタグから設定を指定するオ"
 "プション"
 
-#: admin/about.php:312
+#: admin/about.php:321
 msgid ""
 "Publish multiple images to facebook, tumblr, linkedin, twitter, threads and "
 "telegram along with post content"
@@ -217,16 +221,16 @@ msgstr ""
 "投稿コンテンツとともに複数の画像を Facebook、tumblr、linkedin、twitter、ス"
 "レッド、電報に公開します"
 
-#: admin/about.php:321
+#: admin/about.php:330
 msgid "Option to specify multiphoto preference from post content and post meta"
 msgstr ""
 "投稿コンテンツと投稿メタからマルチフォトプリファレンスを指定するオプション"
 
-#: admin/about.php:333
+#: admin/about.php:342
 msgid "Video/Audio Options"
 msgstr "ビデオ/オーディオオプション"
 
-#: admin/about.php:334
+#: admin/about.php:343
 msgid ""
 "Publish video to facebook, tumblr,Linkedin, Instagram, twitter, threads and "
 "telegram along with post content"
@@ -234,17 +238,17 @@ msgstr ""
 "投稿コンテンツとともにビデオを Facebook、tumblr、Linkedin、Instagram、"
 "twitter、スレッド、電報に公開します"
 
-#: admin/about.php:344
+#: admin/about.php:353
 msgid ""
 "Option to specify preference from post content, post meta and open graph tags"
 msgstr ""
 "投稿コンテンツ、投稿メタ、オープングラフタグから設定を指定するオプション"
 
-#: admin/about.php:354
+#: admin/about.php:363
 msgid "Publish audio to tumblr along with post content"
 msgstr "投稿コンテンツと一緒にオーディオをタンブラーに公開する"
 
-#: admin/about.php:364
+#: admin/about.php:373
 msgid ""
 "Option to specify audio preference from  post content, post meta and open "
 "graph tags"
@@ -252,119 +256,119 @@ msgstr ""
 "投稿コンテンツ、投稿メタ、オープングラフタグからオーディオ設定を指定するオプ"
 "ション"
 
-#: admin/about.php:376
+#: admin/about.php:385
 msgid "Filter Options"
 msgstr "フィルタオプション"
 
-#: admin/about.php:377
+#: admin/about.php:386
 msgid "Filter posts to publish based on categories"
 msgstr "カテゴリに基づいて公開する投稿をフィルタリングする"
 
-#: admin/about.php:387
+#: admin/about.php:396
 msgid "Filter posts to publish based on custom post types"
 msgstr "カスタム投稿タイプに基づいて公開する投稿をフィルタリングする"
 
-#: admin/about.php:396
+#: admin/about.php:405
 msgid "Filter posts to publish based on sticky posts"
 msgstr "スティッキー投稿に基づいて公開する投稿をフィルタリングする"
 
-#: admin/about.php:405
+#: admin/about.php:414
 msgid "Configuration to enable/disable page publishing"
 msgstr "ページ公開を有効/無効にする構成"
 
-#: admin/about.php:415
+#: admin/about.php:424
 msgid "Category filter for individual accounts"
 msgstr "個人アカウントのカテゴリフィルター"
 
-#: admin/about.php:425
+#: admin/about.php:434
 msgid "Custom post type filter for individual accounts"
 msgstr "個人アカウント用のカスタム投稿タイプフィルター"
 
-#: admin/about.php:435
+#: admin/about.php:444
 msgid "Enable/Disable page publishing for individual accounts"
 msgstr "個々のアカウントのページ公開を有効/無効にする"
 
-#: admin/about.php:444
+#: admin/about.php:453
 msgid "Override auto publish scheduling for individual accounts"
 msgstr "個々のアカウントの自動公開スケジュールを上書きする"
 
-#: admin/about.php:453
+#: admin/about.php:462
 msgid "Override auto publish based on sticky posts for individual accounts"
 msgstr "個々のアカウントのスティッキー投稿に基づいて自動公開を上書きする"
 
-#: admin/about.php:464
+#: admin/about.php:473
 msgid "Scheduling"
 msgstr "スケジューリング"
 
-#: admin/about.php:465
+#: admin/about.php:474
 msgid "Instantaneous post publishing"
 msgstr "瞬時の投稿公開"
 
-#: admin/about.php:475
+#: admin/about.php:484
 msgid "Scheduled post publishing using cron"
 msgstr "Cronを使用したスケジュールされたポストパブリッシング"
 
-#: admin/about.php:484
+#: admin/about.php:493
 msgid "Status summary of auto publish tasks by mail"
 msgstr "メールによる自動公開タスクのステータスの概要"
 
-#: admin/about.php:494
+#: admin/about.php:503
 msgid "Configurable auto publishing time interval"
 msgstr "構成可能な自動公開時間間隔"
 
-#: admin/about.php:508
+#: admin/about.php:517
 msgid "Publishing History"
 msgstr "出版履歴"
 
-#: admin/about.php:509
+#: admin/about.php:518
 msgid "View auto publish history"
 msgstr "自動公開履歴を表示する"
 
-#: admin/about.php:518
+#: admin/about.php:527
 msgid "View auto publish error logs"
 msgstr "自動公開エラーログを表示する"
 
-#: admin/about.php:528
+#: admin/about.php:537
 msgid "Option to republish post"
 msgstr "投稿を再公開するオプション"
 
-#: admin/about.php:538
+#: admin/about.php:547
 msgid "Option to reschedule publishing"
 msgstr "公開を再スケジュールするオプション"
 
-#: admin/about.php:549
+#: admin/about.php:558
 msgid "Installation and Support"
 msgstr "インストールとサポート"
 
-#: admin/about.php:550
+#: admin/about.php:559
 msgid "Free Installation"
 msgstr "無料インストール"
 
-#: admin/about.php:559
+#: admin/about.php:568
 msgid "Privilege customer support"
 msgstr "特権カスタマーサポート"
 
-#: admin/about.php:569
+#: admin/about.php:578
 msgid "Addon Features"
 msgstr "アドオン機能"
 
-#: admin/about.php:570
+#: admin/about.php:579
 msgid "Advanced Autopublish Scheduler"
 msgstr "高度な自動公開スケジューラ"
 
-#: admin/about.php:579
+#: admin/about.php:588
 msgid "URL-Shortener"
 msgstr "URL-短縮サービス"
 
-#: admin/about.php:588
+#: admin/about.php:597
 msgid "Privilege Management"
 msgstr "特権管理"
 
-#: admin/about.php:597
+#: admin/about.php:606
 msgid "Other"
 msgstr "他の"
 
-#: admin/about.php:599
+#: admin/about.php:608
 #, php-format
 msgid ""
 "%s API package for 1 year, worth 10 USD(1 linkedin account @ 25 api per day)"
@@ -372,39 +376,39 @@ msgstr ""
 "1年間の%s APIパッケージ、10米ドル相当（1日あたり25apiのLinkedInアカウント1"
 "つ）"
 
-#: admin/about.php:602
+#: admin/about.php:611
 msgid "1 month free subscription"
 msgstr "1か月の無料サブスクリプション"
 
-#: admin/about.php:604
+#: admin/about.php:613
 msgid "1 year free subscription"
 msgstr "1年間の無料購読"
 
-#: admin/about.php:608
+#: admin/about.php:617
 msgid "Price"
 msgstr "価格"
 
-#: admin/about.php:609
+#: admin/about.php:618
 msgid "FREE"
 msgstr "ただで"
 
-#: admin/about.php:610
+#: admin/about.php:619
 msgid "Starts from 29 USD"
 msgstr "29米ドルから"
 
-#: admin/about.php:611
+#: admin/about.php:620
 msgid "Starts from 59 USD"
 msgstr "59米ドルから"
 
-#: admin/about.php:614
+#: admin/about.php:623
 msgid "Purchase"
 msgstr "購入"
 
-#: admin/about.php:616 admin/footer.php:24
+#: admin/about.php:625 admin/footer.php:24
 msgid "Buy Now"
 msgstr "今買う"
 
-#: admin/about.php:622
+#: admin/about.php:631
 msgid "Pinterest is added on experimental basis."
 msgstr "ピンタレストは実験的に追加されています。"
 
@@ -723,93 +727,93 @@ msgstr "ログ"
 msgid "Suggest a Feature"
 msgstr "機能を提案する"
 
-#: admin/metabox.php:317 admin/settings.php:313
+#: admin/metabox.php:311 admin/settings.php:313
 msgid "Enable auto publish posts to my linkedin account"
 msgstr "リンクトインアカウントへの投稿の自動公開を有効にする"
 
-#: admin/metabox.php:320 admin/settings.php:315 admin/settings.php:397
+#: admin/metabox.php:314 admin/settings.php:315 admin/settings.php:397
 #: admin/settings.php:437 admin/settings.php:442 admin/settings.php:456
 #: admin/settings.php:663 admin/settings.php:673 admin/settings.php:788
 #: admin/settings.php:839 admin/settings.php:849
 msgid "Yes"
 msgstr "はい"
 
-#: admin/metabox.php:321 admin/settings.php:316 admin/settings.php:398
+#: admin/metabox.php:315 admin/settings.php:316 admin/settings.php:398
 #: admin/settings.php:438 admin/settings.php:443 admin/settings.php:457
 #: admin/settings.php:664 admin/settings.php:674 admin/settings.php:789
 #: admin/settings.php:840 admin/settings.php:850
 msgid "No"
 msgstr "ノー"
 
-#: admin/metabox.php:327 admin/settings.php:463
+#: admin/metabox.php:321 admin/settings.php:463
 msgid "Share post content with"
 msgstr "投稿コンテンツを"
 
-#: admin/metabox.php:330 admin/settings.php:466
+#: admin/metabox.php:324 admin/settings.php:466
 msgid "Public"
 msgstr "公衆"
 
-#: admin/metabox.php:331
+#: admin/metabox.php:325
 msgid "Connections only"
 msgstr "接続のみ"
 
-#: admin/metabox.php:336 admin/settings.php:402
+#: admin/metabox.php:330 admin/settings.php:402
 msgid "Message format for posting"
 msgstr "投稿用のメッセージ形式"
 
-#: admin/metabox.php:340 admin/settings.php:406
+#: admin/metabox.php:334 admin/settings.php:406
 msgid "Insert the title of your post."
 msgstr "投稿のタイトルを挿入します。"
 
-#: admin/metabox.php:341 admin/settings.php:407
+#: admin/metabox.php:335 admin/settings.php:407
 msgid "Insert the URL where your post is displayed."
 msgstr "投稿が表示されているURLを挿入します。"
 
-#: admin/metabox.php:342 admin/settings.php:408
+#: admin/metabox.php:336 admin/settings.php:408
 msgid "Insert the excerpt of your post."
 msgstr "投稿の抜粋を挿入します。"
 
-#: admin/metabox.php:343 admin/settings.php:409
+#: admin/metabox.php:337 admin/settings.php:409
 msgid "Insert the description of your post."
 msgstr "投稿の説明を挿入します。"
 
-#: admin/metabox.php:344 admin/settings.php:410
+#: admin/metabox.php:338 admin/settings.php:410
 msgid "Insert the name of your blog."
 msgstr "ブログの名前を挿入します。"
 
-#: admin/metabox.php:345 admin/settings.php:411
+#: admin/metabox.php:339 admin/settings.php:411
 msgid "Insert the nicename of the author."
 msgstr "著者のnicenameを挿入します。"
 
-#: admin/metabox.php:346 admin/settings.php:412
+#: admin/metabox.php:340 admin/settings.php:412
 msgid "Insert the ID of your post."
 msgstr "投稿のIDを挿入します。"
 
-#: admin/metabox.php:347 admin/settings.php:413
+#: admin/metabox.php:341 admin/settings.php:413
 msgid "Insert the publish date of your post."
 msgstr "投稿の公開日を挿入します。"
 
-#: admin/metabox.php:348 admin/settings.php:414
+#: admin/metabox.php:342 admin/settings.php:414
 msgid "Insert the display name of the author."
 msgstr "著者の表示名を挿入します。"
 
-#: admin/metabox.php:353 admin/settings.php:418
+#: admin/metabox.php:347 admin/settings.php:418
 msgid "Select"
 msgstr "選択する"
 
-#: admin/metabox.php:370 admin/settings.php:376
+#: admin/metabox.php:364 admin/settings.php:376
 msgid "Posting method"
 msgstr "投稿方法"
 
-#: admin/metabox.php:374 admin/settings.php:382
+#: admin/metabox.php:368 admin/settings.php:382
 msgid "Simple text message"
 msgstr "シンプルなテキストメッセージ"
 
-#: admin/metabox.php:376 admin/settings.php:384
+#: admin/metabox.php:370 admin/settings.php:384
 msgid "Attach your blog post"
 msgstr "ブログ投稿を添付してください"
 
-#: admin/metabox.php:378 admin/settings.php:386
+#: admin/metabox.php:372 admin/settings.php:386
 msgid "Text message with image"
 msgstr "画像付きのテキストメッセージ"
 
@@ -1078,19 +1082,19 @@ msgstr "明確"
 msgid "NIL"
 msgstr "ニル"
 
-#: admin/settings.php:766
+#: admin/settings.php:765
 msgid "Auto publish on creating posts/pages/custom post types"
 msgstr "投稿/ページ/カスタム投稿タイプの作成時に自動公開"
 
-#: admin/settings.php:769 admin/settings.php:778
+#: admin/settings.php:768 admin/settings.php:778
 msgid "Enabled"
 msgstr "有効"
 
-#: admin/settings.php:770 admin/settings.php:779
+#: admin/settings.php:769 admin/settings.php:779
 msgid "Disabled"
 msgstr "使用禁止"
 
-#: admin/settings.php:771 admin/settings.php:780
+#: admin/settings.php:770 admin/settings.php:780
 msgid "Use metabox settings"
 msgstr "一般設定"
 
@@ -1135,11 +1139,11 @@ msgstr "%sはリクエストを処理できません。"
 msgid "Please suggest a feature"
 msgstr "機能を提案してください"
 
-#: admin/suggest_feature.php:61
+#: admin/suggest_feature.php:67
 msgid "Contribute And Get Rewarded"
 msgstr "貢献して報酬を得る"
 
-#: admin/suggest_feature.php:62
+#: admin/suggest_feature.php:68
 msgid ""
 "Suggest a feature for this plugin and stand a chance to get a free copy of "
 "premium version of this plugin."
@@ -1147,7 +1151,7 @@ msgstr ""
 "このプラグインの機能を提案し、このプラグインのプレミアムバージョンの無料コ"
 "ピーを入手するチャンスを手に入れましょう。"
 
-#: admin/suggest_feature.php:68
+#: admin/suggest_feature.php:74
 msgid "Send Mail To Us"
 msgstr "私たちにメールを送る"
 
