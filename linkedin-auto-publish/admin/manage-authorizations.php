@@ -64,7 +64,7 @@ padding: 10px;
 background-color: #ddd;
 width: 96.8%;
 margin-bottom: 1px;}
-.xyz_lnap_plan_div{
+/* .xyz_lnap_plan_div{
 float:left;
 padding-left: 5px;
 background-color:#b7b6b6;
@@ -80,6 +80,89 @@ margin-left: 5px;
     float: left;
     padding: 5px;
     background-color: #30a0d2;
+} */
+.xyz_lnap_plan_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #ffffffe0; /* Same blue as label */
+  padding: 8px 6px;
+  border-radius: 5px;
+  margin-top: 10px;
+  gap: 8px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+.xyz_lnap_plan_label {
+  background-color: #e63946; /* Slightly darker for distinction */
+  color: #ffffff;
+  font-weight: 600;
+  padding: 5px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.xyz_lnap_plan_div {
+  background-color: #00a0d2;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-grow: 1;
+  text-align: center;
+  min-width: fit-content;
+}
+.xyz_lnap_plan_div a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.xyz_lnap_plan_div a:hover {
+  text-decoration: underline;
+}
+.xyz_lnap_over_all_container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 6px;
+  background-color: #ffffffe0; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1);
+  width: 99%;
+}
+.xyz_lnap_over_all_plan_label {
+  background-color: #e63946; /* Red for label */
+  color: #fff;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+.xyz_lnap_over_all_div {
+  background-color: #00a0d2; /* Lighter than container for contrast */
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin: 4px 6px;
+  flex-grow: 1;
+  text-align: center;
+  min-width: fit-content;
+  white-space: nowrap;
+}
+.xyz_lnap_over_all_div a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.xyz_lnap_over_all_div a:hover {
+  text-decoration: underline;
 }
 </style>
 <script type="text/javascript">
@@ -216,13 +299,30 @@ jQuery(document).ready(function() {
 	    }
 	    });
 	  });
-///////////////////////////////////////////////////////////////////
+
+	// Secure message listener with origin validation
 	window.addEventListener('message', function(e) {
+		const xyz_lnap_allowed_origins = [
+			 window.location.origin, // same site
+			"https://authorize.smapsolutions.com" 
+		];
+		if (!xyz_lnap_allowed_origins.includes(e.origin)) {
+				console.warn('Blocked message from unauthorized origin:', e.origin);
+				return;
+			}
+			if (typeof e.data === 'string') {
 		ProcessChildMessage_2(e.data);
+			}
 	} , false);
-	//////////////////////////////////////////////////////////////////
+
 		function ProcessChildMessage_2(message) {
-				var obj1=jQuery.parseJSON(message);//console.log(message);
+				try {
+						var obj1 = jQuery.parseJSON(message); 
+					} 
+				catch (error) {
+						console.error('WP to LinkedIn Auto Publish: Failed to parse JSON message.', error);
+						return;
+					}
 			  	if(obj1.smap_api_upgrade && obj1.success_flag){ 
 				   var base = '<?php echo admin_url('admin.php?page=linkedin-auto-publish-manage-authorizations&msg=smap_pack_updated');?>';
 				  window.location.href = base;
@@ -270,8 +370,11 @@ if(!empty($result) && isset($result['status']))
 		<div id="auth_entries_div" style="margin-bottom: 5px;">
 					<?php if(!empty($result) && isset($result['package_details']))
 					{
-						?><div class="xyz_lnap_plan_label"> <?php _e('Current Plan:','linkedin-auto-publish'); ?> </div><?php 
-						$ln_package_details=$result['package_details'];?>
+						$ln_package_details=$result['package_details'];
+						xyz_lnap_update_package_expiry($ln_package_details['ln_expiry_time']);	
+						?>
+						<div class="xyz_lnap_plan_container">
+						<div class="xyz_lnap_plan_label"> <?php _e('Current Plan:','linkedin-auto-publish'); ?> </div>
 						<div class="xyz_lnap_plan_div"> <?php _e('Allowed LinkedIn users:','linkedin-auto-publish'); ?> <?php echo $ln_package_details['allowed_ln_user_accounts'];?> &nbsp;</div>
 						<div  class="xyz_lnap_plan_div"> <?php _e('API limit per account :','linkedin-auto-publish'); ?> <?php echo $ln_package_details['allowed_lnapi_calls'];_e('per day','linkedin-auto-publish'); ?> &nbsp;</div>
 						<div  class="xyz_lnap_plan_div"> <?php _e('Package Expiry :','linkedin-auto-publish'); ?> <?php echo date('d/m/Y g:i a', $ln_package_details['ln_expiry_time']);?>  &nbsp;</div>
@@ -287,7 +390,7 @@ if(!empty($result) && isset($result['status']))
 							<a href="javascript:lnap_popup_purchase_plan('<?php echo $auth_secret_key;?>','<?php echo $request_hash;?>');void(0);">
 							<i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp; <?php _e('Upgrade/Renew','linkedin-auto-publish'); ?>
 							</a> 
-							</div>
+							</div></div>
 							<?php 
 						}
 					}

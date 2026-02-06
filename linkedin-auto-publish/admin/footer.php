@@ -36,6 +36,14 @@ if(get_option('xyz_lnap_premium_version_ads')==1){?>
 <div style="clear: both;">
 </div>
 <div class="xyz_lnap_wrap">
+<div class="xyz-lnap-footer-contact">
+    🚀 <span style="font-style: italic;font-size:larger;"><?php _e('We are available for custom development','linkedin-auto-publish'); ?></span> — 
+    <a href="https://xyzscripts.com/support/" target="_blank">
+    <?php _e('Get a quote','linkedin-auto-publish'); ?>
+    </a>
+</div>
+</div>
+<div class="xyz_lnap_wrap">
 
 <div class="xyz_lnap_social_media">
 <h3 class="xyz_lnap_inner_head"> <?php _e('Follow Us','linkedin-auto-publish') ?> </h3>

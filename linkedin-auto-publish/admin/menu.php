@@ -19,9 +19,10 @@ function xyz_lnap_add_admin_scripts()
 	    'html4' => __('Thank you for enabling backlink !','linkedin-auto-publish')
 	    	    
 	));
-	wp_register_style('xyz_lnap_style', plugins_url('linkedin-auto-publish/css/style.css'));
+	$current_version=xyz_lnap_plugin_get_version();
+	wp_register_style('xyz_lnap_style', plugins_url('linkedin-auto-publish/css/style.css'),array(),$current_version);
 	wp_enqueue_style('xyz_lnap_style');
-	wp_register_style( 'xyz_lnap_font_style',plugins_url('linkedin-auto-publish/css/font-awesome.min.css'));
+	wp_register_style( 'xyz_lnap_font_style',plugins_url('linkedin-auto-publish/css/font-awesome.min.css'),array(),$current_version);
 	wp_enqueue_style('xyz_lnap_font_style');
 }
 
@@ -33,7 +34,7 @@ function xyz_lnap_menu()
 	$page=add_submenu_page('linkedin-auto-publish-settings', 'LinkedIn Auto Publish - Manage settings', __('Settings','linkedin-auto-publish'), 'manage_options', 'linkedin-auto-publish-settings' ,'xyz_lnap_settings'); // 8 for admin
 	add_submenu_page('linkedin-auto-publish-settings', 'Linkedin Auto Publish - Logs', __('Logs','linkedin-auto-publish'), 'manage_options', 'linkedin-auto-publish-log' ,'xyz_lnap_logs');
 	if(get_option('xyz_lnap_xyzscripts_hash_val')!=''&& get_option('xyz_lnap_xyzscripts_user_id')!='')
-		add_submenu_page('linkedin-auto-publish-settings', 'LinkedIn Auto Publish - Manage Authorizations', __('Manage Authorizations','linkedin-auto-publish'), 'manage_options', 'linkedin-auto-publish-manage-authorizations' ,'xyz_lnap_manage_authorizations');
+		add_submenu_page('linkedin-auto-publish-settings', 'LinkedIn Auto Publish - SmapSolutions Authorizations', __('SmapSolutions Authorizations','linkedin-auto-publish'), 'manage_options', 'linkedin-auto-publish-manage-authorizations' ,'xyz_lnap_manage_authorizations');
 	add_submenu_page('linkedin-auto-publish-settings', 'LinkedIn Auto Publish - About', __('About','linkedin-auto-publish'), 'manage_options', 'linkedin-auto-publish-about' ,'xyz_lnap_about'); // 8 for admin
 	add_submenu_page('linkedin-auto-publish-settings', 'LinkedIn Auto Publish - Suggest Feature', __('Suggest a Feature','linkedin-auto-publish'), 'manage_options', 'linkedin-auto-publish-suggest-features' ,'xyz_lnap_suggest_feature');
 }

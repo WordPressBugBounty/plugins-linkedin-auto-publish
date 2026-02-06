@@ -276,11 +276,11 @@ $lnap_pub_msg=sprintf( __('%s automatically publishes posts from your blog to yo
 	</tr>
 	<tr>
 		<td> <?php _e('Carousel post support for Instagram and Telegram','social-media-auto-publish'); ?> </td>
-		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_SMAP_PLUGIN_FILE);?>">
+		<td><img src="<?php echo plugins_url("images/cross.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
-		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_SMAP_PLUGIN_FILE);?>">
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
-		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_SMAP_PLUGIN_FILE);?>">
+		<td><img src="<?php echo plugins_url("images/tick.png",XYZ_LNAP_PLUGIN_FILE);?>">
 		</td>
 	</tr>
 	

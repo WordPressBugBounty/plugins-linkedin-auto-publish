@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: multilang\n"
-"POT-Creation-Date: 2025-07-29 16:11+0530\n"
-"PO-Revision-Date: 2025-07-29 16:11+0530\n"
+"POT-Creation-Date: 2025-10-28 15:46+0530\n"
+"PO-Revision-Date: 2025-10-28 15:46+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -10,12 +10,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-SearchPath-0: admin/about.php\n"
 "X-Poedit-SearchPath-1: admin/admin-notices.php\n"
-"X-Poedit-SearchPath-2: admin/ajax-backlink.php\n"
+"X-Poedit-SearchPath-2: admin/ajax-actions.php\n"
 "X-Poedit-SearchPath-3: admin/authorization.php\n"
 "X-Poedit-SearchPath-4: admin/destruction.php\n"
 "X-Poedit-SearchPath-5: admin/footer.php\n"
@@ -432,6 +432,21 @@ msgstr "捐"
 msgid "Don't Show This Again"
 msgstr "不要再显示这个"
 
+#: admin/admin-notices.php:112
+#, php-format
+msgid "SMAP Solutions %s package expires in 30 days."
+msgstr "SMAP Solutions %s 套餐將在 30 天後到期。"
+
+#: admin/admin-notices.php:119
+#, php-format
+msgid "SMAP Solutions %s package expires in 1 week!"
+msgstr "SMAP Solutions %s 套餐將於 1 週後到期！"
+
+#: admin/admin-notices.php:126
+#, php-format
+msgid "SMAP Solutions %s package has expired!"
+msgstr "SMAP Solutions %s 套餐已過期！"
+
 #: admin/footer.php:11
 #, php-format
 msgid ""
@@ -449,47 +464,55 @@ msgstr "解锁高级调度、多帐户发布、主题标签自动化和无缝社
 msgid "Compare Features"
 msgstr "比较功能"
 
-#: admin/footer.php:41
+#: admin/footer.php:40
+msgid "We are available for custom development"
+msgstr "我們可以進行客製化開發"
+
+#: admin/footer.php:42
+msgid "Get a quote"
+msgstr "取得報價"
+
+#: admin/footer.php:49
 msgid "Follow Us"
 msgstr "跟着我们"
 
-#: admin/footer.php:49
+#: admin/footer.php:57
 msgid "Support"
 msgstr "支持"
 
-#: admin/footer.php:51
+#: admin/footer.php:59
 msgid "Contact Us"
 msgstr "联系我们"
 
-#: admin/footer.php:52
+#: admin/footer.php:60
 msgid "Please Rate Us"
 msgstr "请评价我们"
 
-#: admin/footer.php:58
+#: admin/footer.php:66
 msgid "Create a ticket at Wordpress forum"
 msgstr "在 Wordpress 论坛上创建票证"
 
-#: admin/footer.php:61
+#: admin/footer.php:69
 msgid "Stay tuned for our updates"
 msgstr "请继续关注我们的更新"
 
-#: admin/footer.php:126
+#: admin/footer.php:134
 msgid "Name"
 msgstr "姓名"
 
-#: admin/footer.php:142
+#: admin/footer.php:150
 msgid "Email"
 msgstr "电子邮件"
 
-#: admin/footer.php:144
+#: admin/footer.php:152
 msgid "Subscribe"
 msgstr "订阅"
 
-#: admin/footer.php:159
+#: admin/footer.php:167
 msgid "Our Plugins"
 msgstr "我们的插件"
 
-#: admin/footer.php:180
+#: admin/footer.php:188
 msgid "Powered by"
 msgstr "供电"
 
@@ -498,8 +521,8 @@ msgid "Settings updated successfully."
 msgstr "设置更新成功。"
 
 #: admin/header.php:20 admin/header.php:33 admin/header.php:49
-#: admin/manage-authorizations.php:9 admin/manage-authorizations.php:134
-#: admin/manage-authorizations.php:201 admin/settings.php:29
+#: admin/manage-authorizations.php:9 admin/manage-authorizations.php:229
+#: admin/manage-authorizations.php:296 admin/settings.php:29
 #: admin/settings.php:45 admin/settings.php:159 admin/settings.php:166
 #: admin/settings.php:174 admin/settings.php:184 admin/settings.php:197
 #: admin/settings.php:1044 admin/settings.php:1077 admin/suggest_feature.php:11
@@ -527,7 +550,7 @@ msgstr "常问问题"
 msgid "Readme"
 msgstr "自述文件"
 
-#: admin/header.php:110 admin/menu.php:37
+#: admin/header.php:110 admin/menu.php:38
 msgid "About"
 msgstr "关于"
 
@@ -577,93 +600,93 @@ msgstr "%s 包更新成功。"
 msgid "Please authorize %s app under LinkedIn settings to access this page."
 msgstr "请在 LinkedIn 设置下授权 %s 应用访问此页面。"
 
-#: admin/manage-authorizations.php:248 admin/menu.php:36
+#: admin/manage-authorizations.php:343
 msgid "Manage Authorizations"
 msgstr "管理授权"
 
-#: admin/manage-authorizations.php:273
+#: admin/manage-authorizations.php:372
 msgid "Current Plan:"
 msgstr "当前计划："
 
-#: admin/manage-authorizations.php:275
+#: admin/manage-authorizations.php:373
 msgid "Allowed LinkedIn users:"
 msgstr "允许的 领英 用户："
 
-#: admin/manage-authorizations.php:276
+#: admin/manage-authorizations.php:374
 msgid "API limit per account :"
 msgstr "每个帐户的 API 限制："
 
-#: admin/manage-authorizations.php:276
+#: admin/manage-authorizations.php:374
 msgid "per day"
 msgstr "每天"
 
-#: admin/manage-authorizations.php:277
+#: admin/manage-authorizations.php:375
 msgid "Package Expiry :"
 msgstr "包裹到期："
 
-#: admin/manage-authorizations.php:278
+#: admin/manage-authorizations.php:376
 msgid "Package Status :"
 msgstr "包裹状态："
 
-#: admin/manage-authorizations.php:288
+#: admin/manage-authorizations.php:386
 msgid "Upgrade/Renew"
 msgstr "升级/更新"
 
-#: admin/manage-authorizations.php:299
+#: admin/manage-authorizations.php:396
 msgid "Show all entries"
 msgstr "显示所有条目"
 
-#: admin/manage-authorizations.php:300
+#: admin/manage-authorizations.php:397
 msgid "Show entries from current wp installation"
 msgstr "显示当前 wp 安装的条目"
 
-#: admin/manage-authorizations.php:301
+#: admin/manage-authorizations.php:398
 msgid "Show entries from other wp installations"
 msgstr "显示来自其他 wp 安装的条目"
 
-#: admin/manage-authorizations.php:307
+#: admin/manage-authorizations.php:404
 msgid "LinkedIn username"
 msgstr "领英用户名"
 
-#: admin/manage-authorizations.php:308
+#: admin/manage-authorizations.php:405
 msgid "Selected pages"
 msgstr "选定页面"
 
-#: admin/manage-authorizations.php:310
+#: admin/manage-authorizations.php:407
 #, php-format
 msgid "%s url"
 msgstr "%s 网址"
 
-#: admin/manage-authorizations.php:312
+#: admin/manage-authorizations.php:409
 msgid "Plugin"
 msgstr "插件"
 
-#: admin/manage-authorizations.php:314
+#: admin/manage-authorizations.php:411
 #, php-format
 msgid "Account ID %s"
 msgstr "帐户 ID %s"
 
-#: admin/manage-authorizations.php:317
+#: admin/manage-authorizations.php:414
 msgid "Action"
 msgstr "行动"
 
-#: admin/manage-authorizations.php:349
+#: admin/manage-authorizations.php:446
 msgid "Not Applicable"
 msgstr "不适用"
 
-#: admin/manage-authorizations.php:356 admin/manage-authorizations.php:378
+#: admin/manage-authorizations.php:453 admin/manage-authorizations.php:475
 msgid "Delete"
 msgstr "删除"
 
-#: admin/manage-authorizations.php:369
+#: admin/manage-authorizations.php:466
 msgid "(Inactive)"
 msgstr "（不活动）"
 
-#: admin/manage-authorizations.php:389
+#: admin/manage-authorizations.php:486
 msgid "No Authorizations"
 msgstr "无授权"
 
-#: admin/manage-authorizations.php:398
+#: admin/manage-authorizations.php:495
 msgid "Unable to connect. Please check your curl and firewall settings"
 msgstr "无法连接。请检查您的 curl 和防火墙设置"
 
@@ -698,15 +721,19 @@ msgstr "请连接您的 %s 会员帐户"
 msgid "Thank you for enabling backlink !"
 msgstr "感谢您启用反向链接！"
 
-#: admin/menu.php:33
+#: admin/menu.php:34
 msgid "Settings"
 msgstr "设置"
 
-#: admin/menu.php:34
+#: admin/menu.php:35
 msgid "Logs"
 msgstr "日志"
 
-#: admin/menu.php:38
+#: admin/menu.php:37
+msgid "SmapSolutions Authorizations"
+msgstr "SmapSolutions授權"
+
+#: admin/menu.php:39
 msgid "Suggest a Feature"
 msgstr "建议一个功能"
 

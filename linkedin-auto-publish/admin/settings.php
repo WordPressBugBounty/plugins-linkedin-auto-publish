@@ -939,8 +939,24 @@ jQuery(document).ready(function() {
 		    jQuery('#xyz_lnap_conn_to_xyzscripts').hide();
 		   }
 	   });
+//    window.addEventListener('message', function(e) {
+// 	   xyz_lnap_ProcessChildMessage_2(e.data);
+// 	} , false);
+		// Secure message listener with origin validation
    window.addEventListener('message', function(e) {
+		// Allowed origins (add your authorized app domains here)
+		const xyz_lnap_allowed_origins = [
+			window.location.origin, // same site
+			"https://smap.xyzscripts.com",
+			"https://authorize.smapsolutions.com" // your hosted authorization service
+		];
+		if (!xyz_lnap_allowed_origins.includes(e.origin)) {
+				console.warn('Blocked message from unauthorized origin:', e.origin);
+				return;
+			}
+			if (typeof e.data === 'string') {
 	   xyz_lnap_ProcessChildMessage_2(e.data);
+			}
 	} , false);
    var xyz_lnap_lnshare_to_profile='<?php echo get_option('xyz_lnap_lnshare_to_profile'); ?>';
 		xyz_lnap_show_visibility(xyz_lnap_lnshare_to_profile);
@@ -1068,13 +1084,22 @@ function lnap_popup_connect_to_xyzscripts()
 	return false;	
 }
 function xyz_lnap_ProcessChildMessage_2(message) {
+	if (typeof message !== 'string' || message.length === 0) return;
 	var messageType = message.slice(0,5);
-	if(messageType==="error")
-	{
-		message=message.substring(6);
-		if(jQuery('#xyz_lnap_system_notice_area').length==0)
+    if (messageType === "error") {
+        var message = message.substring(6);
+        // Remove any potentially malicious tags 
+		message = message.replace(/<script[^>]*?>.*?<\/script>/gi, '');
+        message = message.replace(/on\w+="[^"]*"/gi, '');
+        message = message.replace(/javascript:/gi, '');
+		message = message.replace(/<[^>]*>?/gm, '');
+        if (jQuery('#xyz_lnap_system_notice_area').length === 0) {
 		jQuery('body').append('<div class="xyz_lnap_system_notice_area_style0" id="xyz_lnap_system_notice_area"></div>');
-		jQuery("#xyz_lnap_system_notice_area").html(message+' <span id="xyz_lnap_system_notice_area_dismiss"> <?php _e('Dismiss','linkedin-auto-publish'); ?> </span>');
+        }
+        // .text() instead of .html() to prevent XSS
+        jQuery("#xyz_lnap_system_notice_area")
+            .text(message + ' ')
+            .append('<span id="xyz_lnap_system_notice_area_dismiss"> Dismiss </span>');
 		jQuery("#xyz_lnap_system_notice_area").show();
 		jQuery('#xyz_lnap_system_notice_area_dismiss').click(function() {
 			jQuery('#xyz_lnap_system_notice_area').animate({
@@ -1082,6 +1107,7 @@ function xyz_lnap_ProcessChildMessage_2(message) {
 				height : 'hide'
 			}, 500);
 		});
+			return;
 	}
 	var obj1=jQuery.parseJSON(message);
 	if(obj1.content &&  obj1.userid && obj1.xyzscripts_user)
@@ -1112,6 +1138,10 @@ function xyz_lnap_ProcessChildMessage_2(message) {
 	var secretkey=obj1.secretkey;
 	var xyz_ln_user_id=obj1.xyz_ln_user_id;
 	var smapsoln_userid=obj1.smapsoln_userid;
+	var expiry_time = 0;
+	if (obj1.ln_expiry_time) {
+		expiry_time = obj1.ln_expiry_time;
+	}
 	var list='';
 	for (var key in obj) {
 	  if (obj.hasOwnProperty(key)) {
@@ -1132,6 +1162,7 @@ function xyz_lnap_ProcessChildMessage_2(message) {
 			smap_secretkey: secretkey,
 			xyz_ln_user_id: xyz_ln_user_id,
 			smapsoln_userid:smapsoln_userid,
+			expiry_time:expiry_time,
 			dataType: 'json',
 			_wpnonce: xyz_lnap_selected_pages_nonce
 		};			

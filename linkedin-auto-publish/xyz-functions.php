@@ -196,4 +196,29 @@ function xyz_lnap_is_session_started()
 			}
 		}
 	}
+	if (!function_exists('xyz_lnap_update_package_expiry')) {
+		function xyz_lnap_update_package_expiry($new_timestamp) {
+			// Only for LinkedIn
+			if (empty($new_timestamp) || !is_numeric($new_timestamp)) return;
+			$expiry_data = get_option('xyz_lnap_smapsolutions_pack_expiry', []);
+			$key = 'smapsolution_linkedin_expiry';
+			$old_timestamp = $expiry_data[$key] ?? null;
+			// Only update if different
+			if (!isset($expiry_data[$key]) || $expiry_data[$key] != $new_timestamp) {
+				$expiry_data[$key] = $new_timestamp;
+				// Reset dismissal for all admins
+				global $wpdb;
+				$user_ids = $wpdb->get_col(
+					$wpdb->prepare(
+						"SELECT user_id FROM {$wpdb->usermeta} WHERE meta_key = %s",
+						'xyz_lnap_notice_dismissed_linkedin'
+					)
+				);
+				foreach ($user_ids as $uid) {
+					delete_user_meta($uid, 'xyz_lnap_notice_dismissed_linkedin');
+				}
+			}
+			update_option('xyz_lnap_smapsolutions_pack_expiry', $expiry_data);
+		}
+	}	
 ?>
