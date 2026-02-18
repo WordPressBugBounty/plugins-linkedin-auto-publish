@@ -1,21 +1,26 @@
 <?php
 if( !defined('ABSPATH') ){ exit();}
-/*add_action('publish_post', 'xyz_lnap_link_publish');
-add_action('publish_page', 'xyz_lnap_link_publish');
-$xyz_lnap_future_to_publish=get_option('xyz_lnap_future_to_publish');
+add_action('save_post', 'xyz_lnap_save_metabox_meta');
+function xyz_lnap_save_metabox_meta($post_id) {
+    if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
+    if (!current_user_can('edit_post', $post_id)) return;
+    if (isset($_POST['xyz_lnap_lnpost_permission'])) {
+        $data = array(
+            'post_ln_permission'       => $_POST['xyz_lnap_lnpost_permission'],
+            'xyz_lnap_ln_shareprivate' => $_POST['xyz_lnap_ln_shareprivate'] ?? '',
+            'xyz_lnap_lnpost_method'   => $_POST['xyz_lnap_lnpost_method'] ?? '',
+            'xyz_lnap_lnmessage'       => $_POST['xyz_lnap_lnmessage'] ?? '',
+        );
+        update_post_meta($post_id, 'xyz_lnap_future_to_publish', $data);
+    }
+}
 
-if($xyz_lnap_future_to_publish==1)
-	add_action('future_to_publish', 'xyz_link_lnap_future_to_publish');
 
-function xyz_link_lnap_future_to_publish($post){
-	$postid =$post->ID;
-	xyz_lnap_link_publish($postid);
-}*/
 add_action(  'transition_post_status',  'xyz_link_lnap_future_to_publish', 10, 3 );
 
 function xyz_link_lnap_future_to_publish($new_status, $old_status, $post){
 
-	if (isset($_GET['_locale']) && empty($_POST))
+	if (isset($_GET['_locale']) && (empty($_POST) || empty($post)))
 		return ;
 	if(!isset($GLOBALS['lnap_dup_publish']))
 		$GLOBALS['lnap_dup_publish']=array();
@@ -221,7 +226,7 @@ if ($xyz_lnap_ln_shareprivate=='')
 
 		}
 		$get_post_meta=get_post_meta($post_ID,"xyz_lnap",true);
-		if($get_post_meta!=1)
+		if (get_post_status($post_ID) === 'publish' && ! $get_post_meta)
 			add_post_meta($post_ID, "xyz_lnap", "1");
 
 		include_once ABSPATH.'wp-admin/includes/plugin.php';

@@ -457,7 +457,7 @@ class LNAPLinkedInOAuth2 extends LNAPOAuth2 {
 		$params['method']='post';
 		$params['headers']['Authorization']='Bearer '.$this->access_token;
 		$params['headers']['Content-Type']='application/json';//application/binary
-    $params['headers']['Linkedin-Version']='202509';
+    	$params['headers']['Linkedin-Version']=XYZ_LNAP_LINKEDIN_VERSION;
 		$params['headers']['X-Restli-Protocol-Version']='2.0.0';
 		$params['headers']['Connection']='Keep-Alive';
 		$params['args']=json_encode($args,JSON_UNESCAPED_SLASHES);
@@ -491,7 +491,6 @@ class LNAPLinkedInOAuth2 extends LNAPOAuth2 {
             curl_setopt($ch, CURLOPT_HTTPHEADER,$headers);
             curl_setopt($ch, CURLOPT_POST, true);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
             curl_setopt($ch,CURLOPT_SSL_VERIFYPEER,$sslverify);
             curl_setopt($ch, CURLOPT_SAFE_UPLOAD, true);
               $image_data = wp_remote_retrieve_body($response);
@@ -511,7 +510,7 @@ class LNAPLinkedInOAuth2 extends LNAPOAuth2 {
 		$params['headers']['Content-Type']='application/json';
 		$params['headers']['x-li-format']='json';
 		$params['headers']['Connection']='Keep-Alive';
-    $params['headers']['Linkedin-Version']='202509';
+   		$params['headers']['Linkedin-Version']=XYZ_LNAP_LINKEDIN_VERSION;
 		$params['headers']['X-RestLi-Protocol-Version']='2.0.0';
 		$this->error = '';
 		$method=isset($params['method'])?$params['method']:'get';
@@ -600,26 +599,15 @@ class LNAPLinkedInOAuth2 extends LNAPOAuth2 {
 		$params['headers']['Authorization']='Bearer '.$this->access_token;
 		$params['headers']['Content-Type']='application/json';
 		$params['headers']['x-li-format']='json';
-    	$params['headers']['Linkedin-Version']='202509';
+    	$params['headers']['Linkedin-Version']=XYZ_LNAP_LINKEDIN_VERSION;
 		$params['headers']['X-Restli-Protocol-Version']='2.0.0';
 		$params['headers']['Connection']='Keep-Alive';
 		$params['args']=json_encode($args);
 		$result =  $this->makeRequest_ln_header($params);
     return $result;
-		// return json_decode($result,true);
 			}
-      // public function shareStatus1($args=array()){
-    	// 	$params['url'] = 'https://api.linkedin.com/v2/ugcPosts';
-    	// 	$params['method']='post';
-    	// 	$params['headers']['Authorization']='Bearer '.$this->access_token;
-    	// 	$params['headers']['Content-Type']='application/json';
-    	// 	$params['headers']['x-li-format']='json';
-    	// 	$params['headers']['X-Restli-Protocol-Version']='2.0.0';
-    	// 	$params['headers']['Connection']='Keep-Alive';
-    	// 	$params['args']=json_encode($args);
-    	// 	$result =  $this->makeRequest($params);
-    	// 	return json_decode($result,true);
-    	// 		}
+
+
 	public function xyz_lnap_fetch_user_data($user_data_endpoint_url){
 		//$params['url'] = 'https://api.linkedin.com/v2/me';
     $params['url'] = $user_data_endpoint_url;

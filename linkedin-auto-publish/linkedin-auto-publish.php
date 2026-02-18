@@ -3,7 +3,7 @@
  Plugin Name: WP to LinkedIn Auto Publish
 Plugin URI: https://xyzscripts.com/wordpress-plugins/linkedin-auto-publish/
 Description:   Publish posts automatically from your blog to LinkedIn social media. You can publish your posts to LinkedIn as simple text message or as text message with attached image. The plugin supports filtering posts by custom post-types and categories.
-Version: 1.9.9
+Version: 1.9.10
 Author: xyzscripts.com
 Author URI: https://xyzscripts.com/
 License: GPLv2 or later
@@ -51,6 +51,8 @@ global $wpdb;
 include_once(ABSPATH.'wp-includes/version.php');
 global $wp_version;
 define('XYZ_WP_LNAP_WP_VERSION',$wp_version);
+if ( ! defined( 'XYZ_LNAP_LINKEDIN_VERSION' ) ) 
+    define( 'XYZ_LNAP_LINKEDIN_VERSION', '202601' );
 // $wpdb->query('SET SQL_MODE=""');
 
 require_once( dirname( __FILE__ ) . '/admin/install.php' );
